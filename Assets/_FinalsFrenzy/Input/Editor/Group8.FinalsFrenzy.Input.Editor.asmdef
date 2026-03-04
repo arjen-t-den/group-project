@@ -1,0 +1,18 @@
+{
+    "name": "Group8.FinalsFrenzy.Input.Editor",
+    "rootNamespace": "Group8.FinalsFrenzy.Input.Editor",
+    "references": [
+        "GUID:66ecb43e60ece7d44a75c02fb40a3256"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
