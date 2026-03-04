@@ -100,6 +100,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.settings-manager": {
+      "version": "2.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
       "version": "17.3.0",
       "depth": 1,
@@ -137,6 +144,15 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.xsduan.hierarchy-folders": {
+      "version": "https://github.com/xsduan/unity-hierarchy-folders.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.1"
+      },
+      "hash": "2503a8d188ed45df4891170ce5dd932d0ee9ce1a"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
