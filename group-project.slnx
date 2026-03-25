@@ -1,6 +1,0 @@
-﻿<Solution>
-  <Project Path="Group8.FinalsFrenzy.Player.csproj" />
-  <Project Path="Group8.FinalsFrenzy.Input.csproj" />
-  <Project Path="Group8.FinalsFrenzy.Input.Editor.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
-</Solution>

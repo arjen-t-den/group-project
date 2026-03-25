@@ -22,7 +22,7 @@ namespace Group8.FinalsFrenzy
             if (Mouse.current.leftButton.wasPressedThisFrame)
             {
                 SpawnExplosion(player.transform.position);
-                StartCoroutine(cameraShake.Shake(.15f, .1f));
+                StartCoroutine(cameraShake.Shake(1f, 1f));
             }
                 
 
@@ -37,7 +37,7 @@ namespace Group8.FinalsFrenzy
             GameObject instance = Instantiate(firePrefab, position, Quaternion.identity);
             ParticleSystem system = instance.GetComponent<ParticleSystem>();
             system.Play();
-            Destroy(instance, 3f);
+            // Destroy(instance, 3f);
         }
         // this method takes the player position, and by adding the camera.transform.forward, can spawn the explosion in front of the camera. The only downside is that it is a fixed spawn so it spawns "through wall". There are three ways to fix this, one is to literally giving it the spawn position, rendering it on another layer like how the guns in cs are rendered, or just do a line check. 
         void SpawnExplosion(Vector3 position)
