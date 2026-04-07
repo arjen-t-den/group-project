@@ -6,10 +6,12 @@ namespace Group8.FinalsFrenzy
     public class TestParticles : MonoBehaviour
     {
         private ParticleSystem explosion;
-        public GameObject Camera;
-        public GameObject firePrefab;
         private GameObject player;
+        public GameObject Camera; 
+        public GameObject firePrefab;
         public CameraShake cameraShake;
+        public float magnitude = 1f;
+        public float duration = 1f;
 
         void Start()
         {
@@ -22,7 +24,7 @@ namespace Group8.FinalsFrenzy
             if (Mouse.current.leftButton.wasPressedThisFrame)
             {
                 SpawnExplosion(player.transform.position);
-                StartCoroutine(cameraShake.Shake(1f, 1f));
+                StartCoroutine(cameraShake.Shake(duration, magnitude));
             }
                 
 
@@ -39,7 +41,7 @@ namespace Group8.FinalsFrenzy
             system.Play();
             // Destroy(instance, 3f);
         }
-        // this method takes the player position, and by adding the camera.transform.forward, can spawn the explosion in front of the camera. The only downside is that it is a fixed spawn so it spawns "through wall". There are three ways to fix this, one is to literally giving it the spawn position, rendering it on another layer like how the guns in cs are rendered, or just do a line check. 
+        // Spawns explosion in front of the camera with height adjustment
         void SpawnExplosion(Vector3 position)
         {
             float distance = 2f;
@@ -47,6 +49,7 @@ namespace Group8.FinalsFrenzy
             // camera.transform.forward * distance: spawning in front of the camera
             // Vector3: height adjustment
             Vector3 spawnPos = position + Camera.transform.forward * distance + new Vector3(0f, 1.6f, 0f);
+            FindFirstObjectByType<AudioManager>().Play("ExplosionImpact");
             explosion.transform.position = spawnPos;
             explosion.Play();
         }
