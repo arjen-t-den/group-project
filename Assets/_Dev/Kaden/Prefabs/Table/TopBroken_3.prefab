@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3345047917159589325}
   - component: {fileID: 2362264633447454625}
   - component: {fileID: 3672827185526420608}
+  - component: {fileID: 5792155783402119910}
+  - component: {fileID: 8378980594927243298}
   m_Layer: 0
   m_Name: Top_1
   m_TagString: Untagged
@@ -112,6 +114,46 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5792155783402119910
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363882143302451608}
+  serializedVersion: 5
+  m_Mass: 2
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8378980594927243298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363882143302451608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
+  _brokenPrefab: {fileID: 0}
 --- !u!1 &1478298975412287289
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +166,8 @@ GameObject:
   - component: {fileID: 1153609006087378115}
   - component: {fileID: 1478858755845527976}
   - component: {fileID: 2967701188431636585}
+  - component: {fileID: 3466372869699644966}
+  - component: {fileID: 7106759582682175929}
   m_Layer: 0
   m_Name: Top_2
   m_TagString: Untagged
@@ -224,6 +268,46 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3466372869699644966
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478298975412287289}
+  serializedVersion: 5
+  m_Mass: 2
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &7106759582682175929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478298975412287289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
+  _brokenPrefab: {fileID: 0}
 --- !u!1 &3563765711185812053
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,6 +320,8 @@ GameObject:
   - component: {fileID: 3249260747667898920}
   - component: {fileID: 200642972992567681}
   - component: {fileID: 5649940111533288765}
+  - component: {fileID: 4302928105019422866}
+  - component: {fileID: 6435865702329898057}
   m_Layer: 0
   m_Name: Top_3
   m_TagString: Untagged
@@ -336,6 +422,46 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4302928105019422866
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563765711185812053}
+  serializedVersion: 5
+  m_Mass: 2
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6435865702329898057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563765711185812053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
+  _brokenPrefab: {fileID: 0}
 --- !u!1 &4981695227308030617
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,6 +509,8 @@ GameObject:
   - component: {fileID: 7731450691771114371}
   - component: {fileID: 7009339530846058931}
   - component: {fileID: 7915756824796205925}
+  - component: {fileID: 2411399906022492134}
+  - component: {fileID: 1296926163897060078}
   m_Layer: 0
   m_Name: Top_4
   m_TagString: Untagged
@@ -483,3 +611,43 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2411399906022492134
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323001720029750549}
+  serializedVersion: 5
+  m_Mass: 2
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1296926163897060078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323001720029750549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
+  _brokenPrefab: {fileID: 0}

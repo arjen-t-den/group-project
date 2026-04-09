@@ -3,7 +3,7 @@
     "name": "InputActions",
     "maps": [
         {
-            "name": "Player",
+            "name": "Movement",
             "id": "82247cf0-1957-4380-b121-22e6a9320ac5",
             "actions": [
                 {
@@ -142,6 +142,34 @@
                     "processors": "",
                     "groups": "",
                     "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Weapon",
+            "id": "4656d510-efe3-4955-92ef-4ff5366bbd0e",
+            "actions": [
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "3bcd50c0-62ee-43f4-8e5e-2cff388e4fa3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1d48511b-ee07-4066-9b4e-0122c8af5ae5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
