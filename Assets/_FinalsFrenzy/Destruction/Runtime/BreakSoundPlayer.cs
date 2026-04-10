@@ -1,3 +1,5 @@
+using Group8.FinalsFrenzy.Audio;
+using Group8.FinalsFrenzy.Utilities;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -7,7 +9,7 @@ namespace Group8.FinalsFrenzy.Destruction
     public class BreakSoundPlayer : MonoBehaviour
     {
         [SerializeField]
-        private AudioClip _audioClip;
+        private AudioResource _audioResource;
 
         private IBreakable _breakable;
 
@@ -17,6 +19,6 @@ namespace Group8.FinalsFrenzy.Destruction
 
         private void OnDisable() => _breakable.OnBreak -= PlayBreakSound;
 
-        private void PlayBreakSound() => AudioSource.PlayClipAtPoint(_audioClip, transform.position);
+        private void PlayBreakSound() => AudioUtils.PlayResourceAtPoint(_audioResource, transform.position);
     }
 }

@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
-  _audioClip: {fileID: 8300000, guid: c7697ef76123aa3499a813e9c48fef42, type: 3}
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
 --- !u!1 &4113217056075190184
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
-  _audioClip: {fileID: 8300000, guid: c7697ef76123aa3499a813e9c48fef42, type: 3}
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
 --- !u!1 &7290564130428716410
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
-  _audioClip: {fileID: 8300000, guid: c7697ef76123aa3499a813e9c48fef42, type: 3}
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
 --- !u!1 &7306083393777229539
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,4 +706,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
-  _audioClip: {fileID: 8300000, guid: c7697ef76123aa3499a813e9c48fef42, type: 3}
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}

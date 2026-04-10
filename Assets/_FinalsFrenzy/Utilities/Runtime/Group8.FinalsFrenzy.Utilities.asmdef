@@ -1,0 +1,14 @@
+{
+    "name": "Group8.FinalsFrenzy.Utilities",
+    "rootNamespace": "Group8.FinalsFrenzy.Utilities",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

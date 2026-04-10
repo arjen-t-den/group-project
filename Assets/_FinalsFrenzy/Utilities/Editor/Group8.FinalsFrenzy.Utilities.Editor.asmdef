@@ -1,12 +1,12 @@
 {
-    "name": "Group8.FinalsFrenzy.Destruction",
-    "rootNamespace": "Group8.FinalsFrenzy.Destruction",
+    "name": "Group8.FinalsFrenzy.Utilities.Editor",
+    "rootNamespace": "Group8.FinalsFrenzy.Utilities.Editor",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:652a092b1b9e82a4abcbbc5d91a3793f",
         "GUID:c8bfec2a6e00dca4dbc7a8947abee781"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
