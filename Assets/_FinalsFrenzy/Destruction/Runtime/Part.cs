@@ -5,6 +5,8 @@ namespace Group8.FinalsFrenzy.Destruction
 {
     public class Part : MonoBehaviour
     {
+        public float Mass;
+        public bool IsKinematic;
         public Assembly Assembly;
         public List<Weld> Welds = new();
 

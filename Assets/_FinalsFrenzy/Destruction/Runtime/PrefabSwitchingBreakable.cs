@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Group8.FinalsFrenzy.Destruction
@@ -7,6 +8,8 @@ namespace Group8.FinalsFrenzy.Destruction
     /// </summary>
     public class PrefabSwitchingBreakable : MonoBehaviour, IBreakable
     {
+        public event Action OnBreak;
+
         [SerializeField]
         private GameObject _brokenPrefab;
 
@@ -15,6 +18,8 @@ namespace Group8.FinalsFrenzy.Destruction
         /// </summary>
         public void Break()
         {
+            OnBreak?.Invoke();
+
             if (_brokenPrefab)
                 Instantiate(_brokenPrefab, transform.position, transform.rotation);
 

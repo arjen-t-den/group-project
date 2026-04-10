@@ -18,11 +18,9 @@ namespace Group8.FinalsFrenzy.Destruction
 
             foreach (var part in assembly)
             {
-                if (part.Rigidbody.isKinematic)
-                    return part;
+                if (part.IsKinematic) return part;
 
-                var mass = part.Rigidbody.mass;
-
+                var mass = part.Mass;
                 if (mass > bestMass)
                 {
                     bestMass = mass;
@@ -33,6 +31,9 @@ namespace Group8.FinalsFrenzy.Destruction
             return bestPart;
         }
 
-        public void RebuildAssembly();
+        public void RebuildAssembly()
+        {
+
+        }
     }
 }

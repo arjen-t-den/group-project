@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3672827185526420608}
   - component: {fileID: 5792155783402119910}
   - component: {fileID: 8378980594927243298}
+  - component: {fileID: 3809599549990604594}
   m_Layer: 0
   m_Name: Top_1
   m_TagString: Untagged
@@ -154,6 +155,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
   _brokenPrefab: {fileID: 0}
+--- !u!114 &3809599549990604594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363882143302451608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioClip: {fileID: 8300000, guid: 96752d861fd78c34185d0b4c50939a12, type: 3}
 --- !u!1 &1478298975412287289
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +182,7 @@ GameObject:
   - component: {fileID: 2967701188431636585}
   - component: {fileID: 3466372869699644966}
   - component: {fileID: 7106759582682175929}
+  - component: {fileID: 5395864394769226725}
   m_Layer: 0
   m_Name: Top_2
   m_TagString: Untagged
@@ -308,6 +323,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
   _brokenPrefab: {fileID: 0}
+--- !u!114 &5395864394769226725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478298975412287289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioClip: {fileID: 8300000, guid: 96752d861fd78c34185d0b4c50939a12, type: 3}
 --- !u!1 &3563765711185812053
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +350,7 @@ GameObject:
   - component: {fileID: 5649940111533288765}
   - component: {fileID: 4302928105019422866}
   - component: {fileID: 6435865702329898057}
+  - component: {fileID: 6748890883994230808}
   m_Layer: 0
   m_Name: Top_3
   m_TagString: Untagged
@@ -462,6 +491,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
   _brokenPrefab: {fileID: 0}
+--- !u!114 &6748890883994230808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563765711185812053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioClip: {fileID: 8300000, guid: 96752d861fd78c34185d0b4c50939a12, type: 3}
 --- !u!1 &4981695227308030617
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +553,7 @@ GameObject:
   - component: {fileID: 7915756824796205925}
   - component: {fileID: 2411399906022492134}
   - component: {fileID: 1296926163897060078}
+  - component: {fileID: 4417231138041587438}
   m_Layer: 0
   m_Name: Top_4
   m_TagString: Untagged
@@ -651,3 +694,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
   _brokenPrefab: {fileID: 0}
+--- !u!114 &4417231138041587438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323001720029750549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioClip: {fileID: 8300000, guid: 96752d861fd78c34185d0b4c50939a12, type: 3}

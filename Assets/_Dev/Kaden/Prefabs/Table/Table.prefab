@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 6800909146259307094}
   - component: {fileID: 3015552586044631547}
   - component: {fileID: 3894482690347387237}
-  - component: {fileID: 2819457032965672889}
-  - component: {fileID: 7958321279811250763}
+  - component: {fileID: 2867170228850410385}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -128,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakable
   _brokenPrefab: {fileID: 4113217056075190184, guid: 072ed8eb7a2edd94a85da0229c05f9d6, type: 3}
---- !u!114 &2819457032965672889
+--- !u!114 &2867170228850410385
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,23 +136,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2196171361761001062}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Part
-  _connectedParts: []
---- !u!114 &7958321279811250763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2196171361761001062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3629fcec3e6329b4784e54bde122b467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.FractureNode
-  _children: []
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioClip: {fileID: 8300000, guid: 202ad6179d0db3846ab26a43822399e8, type: 3}
 --- !u!1 &4877703511158318946
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Part
-  _connectedParts: []
+  Mass: 0
+  IsKinematic: 0
+  Assembly: {fileID: 0}
 --- !u!1 &6629732674587226077
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +457,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Part
-  _connectedParts: []
+  Mass: 0
+  IsKinematic: 0
+  Assembly: {fileID: 0}
 --- !u!1 &7564608144884177024
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,7 +585,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Part
-  _connectedParts: []
+  Mass: 0
+  IsKinematic: 0
+  Assembly: {fileID: 0}
 --- !u!1 &8190690163605121073
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,4 +713,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Part
-  _connectedParts: []
+  Mass: 0
+  IsKinematic: 0
+  Assembly: {fileID: 0}
