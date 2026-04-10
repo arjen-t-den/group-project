@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9132283929083530387}
   - component: {fileID: 2931555428117152424}
   - component: {fileID: 3943596806466319924}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4948264346960651857}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 444574713891179479}
   - component: {fileID: 1985567139067078341}
   - component: {fileID: 6641733124117467447}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Visual
   m_TagString: EditorOnly
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 1977110439221495072}
   - component: {fileID: 3854674484541802070}
   - component: {fileID: 5104921049043827058}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FootBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ MonoBehaviour:
   _forwardTransform: {fileID: 455641906281915075}
   _defaultWalkSpeed: 2.5
   RunSpeedMultiplier: 1.6
-  RunMode: 0
+  RunMode: 1
   _moveAction: {fileID: -7277219640123250252, guid: 8cc74e02b89403b44a93caabb21dfa32, type: 3}
   _runAction: {fileID: -6625417283883042520, guid: 8cc74e02b89403b44a93caabb21dfa32, type: 3}
 --- !u!114 &1977110439221495072
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 6426257906641287000}
   - component: {fileID: 652468326171772810}
   - component: {fileID: 5528848695146083259}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
