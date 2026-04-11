@@ -1,10 +1,12 @@
 using Group8.FinalsFrenzy.Audio;
-using Group8.FinalsFrenzy.Utilities;
 using UnityEngine;
 using UnityEngine.Audio;
 
 namespace Group8.FinalsFrenzy.Destruction
 {
+    /// <summary>
+    /// Plays a sound when the breakable is broken.
+    /// </summary>
     [RequireComponent(typeof(IBreakable))]
     public class BreakSoundPlayer : MonoBehaviour
     {

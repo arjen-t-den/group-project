@@ -4,6 +4,9 @@ using UnityEngine.Audio;
 
 namespace Group8.FinalsFrenzy.Audio
 {
+    /// <summary>
+    /// Extension methods for working with audio in the game.
+    /// </summary>
     public static class AudioUtils
     {
         private class CoroutineRunner : MonoBehaviour { }
@@ -23,6 +26,12 @@ namespace Group8.FinalsFrenzy.Audio
             }
         }
 
+        /// <summary>
+        /// Plays an AudioResource at a given position in world space.
+        /// </summary>
+        /// <param name="resource">Audio data to play.</param>
+        /// <param name="position">Position in world space from which sound originates.</param>
+        /// <param name="volume">Playback volume (range from 0.0 - 1.0).</param>
         public static void PlayResourceAtPoint(AudioResource resource, Vector3 position, float volume = 1f)
         {
             GameObject gameObject = new("One shot audio");
