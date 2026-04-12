@@ -1,4 +1,4 @@
-namespace Group8.FinalsFrenzy.Destruction
+namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 {
     public class Weld
     {

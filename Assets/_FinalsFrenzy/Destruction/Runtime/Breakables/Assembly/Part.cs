@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Group8.FinalsFrenzy.Destruction
+namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 {
     public class Part : MonoBehaviour
     {
-        public float Mass;
+        public float Mass = 1f;
         public bool IsKinematic;
         public Assembly Assembly;
         public List<Weld> Welds = new();

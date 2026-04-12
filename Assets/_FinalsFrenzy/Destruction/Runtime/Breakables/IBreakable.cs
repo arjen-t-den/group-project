@@ -1,6 +1,6 @@
 using System;
 
-namespace Group8.FinalsFrenzy.Destruction
+namespace Group8.FinalsFrenzy.Destruction.Breakables
 {
     public interface IBreakable
     {

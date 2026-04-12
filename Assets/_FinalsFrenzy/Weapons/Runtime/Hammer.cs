@@ -1,4 +1,4 @@
-using Group8.FinalsFrenzy.Destruction;
+using Group8.FinalsFrenzy.Destruction.Breakables;
 using UnityEngine;
 
 namespace Group8.FinalsFrenzy.Weapons

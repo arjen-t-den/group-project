@@ -2,7 +2,7 @@ using Group8.FinalsFrenzy.Audio;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Group8.FinalsFrenzy.Destruction
+namespace Group8.FinalsFrenzy.Destruction.Breakables
 {
     /// <summary>
     /// Plays a sound when the breakable is broken.

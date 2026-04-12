@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Group8.FinalsFrenzy.Destruction
+namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 {
     /// <summary>
     /// Represents a collection of parts that move together as one rigid body.
@@ -43,7 +43,7 @@ namespace Group8.FinalsFrenzy.Destruction
 
         private void Awake() => Rigidbody = GetComponent<Rigidbody>();
 
-        private void OnEnable() => RebuildAssembly();
+        private void OnEnable() => RebuildAssembly(new List<Part>());
 
         /// <summary>
         /// Selects a part to be the root of the assembly.
@@ -72,9 +72,15 @@ namespace Group8.FinalsFrenzy.Destruction
             return bestPart;
         }
 
-        public void RebuildAssembly()
+        /// <summary>
+        /// Rebuilds the assembly and splits it into multiple assemblies if necessary.
+        /// </summary>
+        public void RebuildAssembly(List<Part> assembly)
         {
-            
+            foreach (var part in assembly)
+            {
+                part.Assembly = this;
+            }
         }
     }
 }
