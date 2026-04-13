@@ -3,6 +3,8 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+// this is more like a test script to test out the particle system and camera shake, not meant to be used in the final game
 namespace Group8.FinalsFrenzy
 {
     public class TestParticles : MonoBehaviour
@@ -10,6 +12,7 @@ namespace Group8.FinalsFrenzy
         private ParticleSystem explosion;
         private GameObject player;
         private FirstPersonMovement _movement;
+        private AudioManager audioManager;
 
         public GameObject Camera; 
         public GameObject firePrefab;
@@ -23,6 +26,7 @@ namespace Group8.FinalsFrenzy
         {
             explosion = GameObject.Find("ExplosionParticles").GetComponent<ParticleSystem>();
             player = GameObject.Find("FootBall");
+            audioManager = FindFirstObjectByType<AudioManager>();
 
             if (player == null)
             {
@@ -38,12 +42,14 @@ namespace Group8.FinalsFrenzy
 
         void Update()
         {
+            // spawns explosion and triggers camera shake when left mouse button is pressed, explosion spawns in front of the camera with height adjustment
             if (Mouse.current.leftButton.wasPressedThisFrame)
             {
                 SpawnExplosion(player.transform.position);
                 cameraShake.TriggerShake(duration,magnitude);
             }
-            
+
+            // footstep sound logic, plays when the character is moving/running, stops when the character is not moving
             if (Keyboard.current.wKey.isPressed || Keyboard.current.aKey.isPressed || Keyboard.current.sKey.isPressed || Keyboard.current.dKey.isPressed)
             {
                 footstepSounds.enabled = true;
@@ -63,6 +69,7 @@ namespace Group8.FinalsFrenzy
                 sprintSounds.enabled = false;
             }
 
+            // spawns fire particles at the player's position when the F key is pressed
             if (Keyboard.current.fKey.wasPressedThisFrame)
             {
                 SpawnFire(player.transform.position);
@@ -85,7 +92,8 @@ namespace Group8.FinalsFrenzy
             // camera.transform.forward * distance: spawning in front of the camera
             // Vector3: height adjustment
             Vector3 spawnPos = position + Camera.transform.forward * distance + new Vector3(0f, 1.6f, 0f);
-            FindFirstObjectByType<AudioManager>().Play("ExplosionImpact");
+            audioManager.Play("ExplosionImpact");
+            
             explosion.transform.position = spawnPos;
             explosion.Play();
         }

@@ -7,7 +7,7 @@ namespace Group8.FinalsFrenzy
     {
         private Coroutine _shakeCoroutine;
 
-        //
+        // Call this method to trigger the camera shake effect, checks if the shake is already happening and stops it before starting a new one
         public void TriggerShake(float duration, float magnitude)
         {
             if (_shakeCoroutine != null)
@@ -16,6 +16,7 @@ namespace Group8.FinalsFrenzy
             _shakeCoroutine = StartCoroutine(Shake(duration, magnitude));
         }
 
+        // Shaking effect is created by randomly altering the camera's local rotation around the Z-axis for a specified duration and magnitude, with a gradual decrease in intensity over time
         private IEnumerator Shake(float duration, float magnitude)
         {
             float elapsed = 0.0f;
