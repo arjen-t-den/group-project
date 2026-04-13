@@ -11,7 +11,7 @@ namespace Group8.FinalsFrenzy.Weapons
         private readonly float _maxDistance = 3f;
 
         /// <summary>
-        /// Break a breakable object in front of it, if there is one within range.
+        /// Break the breakable object ahead, if there is one within range.
         /// </summary>
         public void Attack()
         {
