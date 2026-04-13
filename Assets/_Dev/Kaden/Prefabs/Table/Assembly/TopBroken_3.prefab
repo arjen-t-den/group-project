@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1840534366330139671}
   - component: {fileID: 8627177719799640989}
   - component: {fileID: 4912694826421507028}
+  - component: {fileID: 668215583628862162}
   m_Layer: 0
   m_Name: Top_3
   m_TagString: Untagged
@@ -128,6 +129,18 @@ MonoBehaviour:
   Mass: 1
   IsKinematic: 0
   Assembly: {fileID: 0}
+--- !u!114 &668215583628862162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858599027302084144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7158d73d3c9954946b0aa3571e8a6c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.JoinSurfaces
 --- !u!1 &3112213768647446944
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +154,7 @@ GameObject:
   - component: {fileID: 1661800312154686651}
   - component: {fileID: 3312214606397793098}
   - component: {fileID: 8541138458281684970}
+  - component: {fileID: 4262691757884891907}
   m_Layer: 0
   m_Name: Top_2
   m_TagString: Untagged
@@ -256,6 +270,18 @@ MonoBehaviour:
   Mass: 1
   IsKinematic: 0
   Assembly: {fileID: 0}
+--- !u!114 &4262691757884891907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3112213768647446944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7158d73d3c9954946b0aa3571e8a6c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.JoinSurfaces
 --- !u!1 &4256126520904431580
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +295,7 @@ GameObject:
   - component: {fileID: 5324727568078682169}
   - component: {fileID: 1076355797604382873}
   - component: {fileID: 3798481565558957358}
+  - component: {fileID: 6996616508097142412}
   m_Layer: 0
   m_Name: Top_1
   m_TagString: Untagged
@@ -384,6 +411,18 @@ MonoBehaviour:
   Mass: 1
   IsKinematic: 0
   Assembly: {fileID: 0}
+--- !u!114 &6996616508097142412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4256126520904431580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7158d73d3c9954946b0aa3571e8a6c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.JoinSurfaces
 --- !u!1 &4882397673687861364
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +436,7 @@ GameObject:
   - component: {fileID: 7249665218944974119}
   - component: {fileID: 9044174326175713159}
   - component: {fileID: 3836735897437280842}
+  - component: {fileID: 1493906614217681737}
   m_Layer: 0
   m_Name: Top_4
   m_TagString: Untagged
@@ -512,6 +552,18 @@ MonoBehaviour:
   Mass: 1
   IsKinematic: 0
   Assembly: {fileID: 0}
+--- !u!114 &1493906614217681737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4882397673687861364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7158d73d3c9954946b0aa3571e8a6c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.JoinSurfaces
 --- !u!1 &7449435064211400343
 GameObject:
   m_ObjectHideFlags: 0

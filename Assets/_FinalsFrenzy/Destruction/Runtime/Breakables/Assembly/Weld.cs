@@ -25,5 +25,17 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             Part0 = part0;
             Part1 = part1;
         }
+
+        /// <summary>
+        /// Breaks the weld and removes references for garbage collection.
+        /// </summary>
+        public void Break()
+        {
+            Part0.Welds.Remove(this);
+            Part1.Welds.Remove(this);
+
+            Part0 = null;
+            Part1 = null;
+        }
     }
 }
