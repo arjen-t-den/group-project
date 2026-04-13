@@ -7,7 +7,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables
     /// Base class for breakable objects.
     /// </summary>
     [DisallowMultipleComponent]
-    public class Breakable : MonoBehaviour, IBreakable
+    public abstract class Breakable : MonoBehaviour, IBreakable
     {
         public event Action OnBreak;
 
