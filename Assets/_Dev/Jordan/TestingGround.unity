@@ -782,99 +782,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1187767728
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1187767730}
-  - component: {fileID: 1187767729}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1187767729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187767728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 606592cacc8c9594fb365ea4b5ccfa1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  sounds:
-  - name: ExplosionImpact
-    clip: {fileID: 8300000, guid: f90b9df12f18e7e4fbf398ff0e667abf, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: GlassShatter
-    clip: {fileID: 8300000, guid: 39a2593956ecb1b469f6d3cf4424f3ed, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: WoodBreak
-    clip: {fileID: 8300000, guid: a2d2e526b9be2b849bea97b89b618131, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Thud
-    clip: {fileID: 8300000, guid: eb1296757f59ac74f8623f978a157cfd, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Bonus
-    clip: {fileID: 8300000, guid: 7412c94980e2b94418c9e6723b6cda57, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Ding
-    clip: {fileID: 8300000, guid: f102a202bbc7e1745b84faba6fa3a251, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: WeaponSwitch
-    clip: {fileID: 8300000, guid: bca0a8bea8db8fe4fa97103904b4ff72, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: FireBurn
-    clip: {fileID: 8300000, guid: 6765b76e8bb2e564cb01734e78b80c7c, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
---- !u!4 &1187767730
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187767728}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.094, y: -0, z: -0.57433}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1302604091 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3515490907057756648, guid: 8b5ac707d4ea1704aa9a3ee80a2a8546, type: 3}
@@ -1950,6 +1857,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dcec4ed0dae7b142bdf6b619bca8a59, type: 3}
+--- !u!1001 &5829482393321290920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.57433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624195940004366751, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947820163794848986, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 871d2cc41192b8f4c9466c57be41936d, type: 3}
 --- !u!1001 &6110708246284301183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2431,5 +2395,5 @@ SceneRoots:
   - {fileID: 1194132812042997069}
   - {fileID: 6830765849539142798}
   - {fileID: 2155384043439521632}
-  - {fileID: 1187767730}
+  - {fileID: 5829482393321290920}
   - {fileID: 766144470}
