@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 namespace Group8.FinalsFrenzy.Destruction.Breakables
 {
@@ -13,8 +14,9 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables
         event Action OnBreak;
 
         /// <summary>
-        /// Called when the object is broken.
+        /// Breaks the object at the specified point.
         /// </summary>
-        void Break();
+        /// <param name="point">The point where the fracture originated.</param>
+        void BreakAtPoint(Vector3 point);
     }
 }

@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
-  Mass: 1
+  Mass: 2
   IsKinematic: 0
   Assembly: {fileID: 0}
 --- !u!114 &668215583628862162
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
-  Mass: 1
+  Mass: 2
   IsKinematic: 0
   Assembly: {fileID: 0}
 --- !u!114 &4262691757884891907
@@ -408,7 +408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
-  Mass: 1
+  Mass: 2
   IsKinematic: 0
   Assembly: {fileID: 0}
 --- !u!114 &6996616508097142412
@@ -549,7 +549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
-  Mass: 1
+  Mass: 2
   IsKinematic: 0
   Assembly: {fileID: 0}
 --- !u!114 &1493906614217681737

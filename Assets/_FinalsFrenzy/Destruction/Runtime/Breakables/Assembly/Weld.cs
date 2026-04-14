@@ -24,6 +24,9 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         {
             Part0 = part0;
             Part1 = part1;
+
+            Part0.Welds.Add(this);
+            Part1.Welds.Add(this);
         }
 
         /// <summary>

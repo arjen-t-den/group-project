@@ -11,6 +11,6 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables
     {
         public event Action OnBreak;
 
-        public virtual void Break() => OnBreak?.Invoke();
+        public virtual void BreakAtPoint(Vector3 point) => OnBreak?.Invoke();
     }
 }
