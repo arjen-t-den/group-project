@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e01da6d1da37d4e9cf0884cc10c107, type: 3}
-  m_Name: ScoreDataTableLeg
+  m_Name: ScoreDataTableBroken
   m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.ScoreData
-  pointMultiplier: 3
-  objectType: TabLeg
+  pointMultiplier: 1
+  objectType: tabBr

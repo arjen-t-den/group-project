@@ -32,6 +32,7 @@ namespace Group8.FinalsFrenzy.Score
         /// </summary>
         public void updateScoreCounter()
         {
+            ScoreCounter.Instance.updateDesObj(scoreData.objectType);
             ScoreCounter.Instance.addScore(scoreData.pointMultiplier);
         }
 

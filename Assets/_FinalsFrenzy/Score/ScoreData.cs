@@ -6,6 +6,7 @@ namespace Group8.FinalsFrenzy
     public class ScoreData : ScriptableObject
     {
         public int pointMultiplier = 1;
+        public string objectType = "misc";
         
     }
 }

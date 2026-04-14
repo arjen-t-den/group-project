@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
-  scoreData: {fileID: 0}
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3068856579087357075 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8779310219346215065, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
-  scoreData: {fileID: 0}
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &5947809917338685234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 129049090277071672, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
-  scoreData: {fileID: 0}
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &8544187888113954193 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2725708501735438747, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
@@ -268,4 +268,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
-  scoreData: {fileID: 0}
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: ScoreDataTableTop
   m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.ScoreData
   pointMultiplier: 10
+  objectType: TabTop

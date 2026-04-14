@@ -1,6 +1,7 @@
 using UnityEngine;
 using Group8.FinalsFrenzy.Destruction.Breakables;
 using System.Diagnostics;
+using System.Linq;
 
 namespace Group8.FinalsFrenzy.Score
 {
@@ -17,7 +18,20 @@ namespace Group8.FinalsFrenzy.Score
         /// <summary>
         /// possible score values.
         /// </summary>
-        private int[] scoreValues = {5,10,25,50,75,100};
+        private int[] scoreValues = {5,10,15,25,50,75,100};
+        /// <summary>
+        /// stores the last object destroyed
+        /// </summary>
+        private string lastdestroyedObject = "";
+        /// <summary>
+        /// stores the 4 objects destroyed before the most recently desroyed object.
+        /// </summary>
+        private string[] destroyedObjects = new string[4];
+        /// <summary>
+        /// index that points to the oldest object label in destroyedObjects. 
+        /// </summary>
+        private int desObjIndex = 0;
+
         private void Awake() {
             if (Instance != null && Instance != this)
             {
@@ -33,13 +47,26 @@ namespace Group8.FinalsFrenzy.Score
         void Start()
         {
             score = 0;
-             UnityEngine.Debug.Log("Score: " + score);
+            //UnityEngine.Debug.Log("Score: " + score);
         }
 
         // Update is called once per frame
         void Update()
         {
             
+        }
+
+        public void updateDesObj(string label)
+        {
+            destroyedObjects[desObjIndex] = lastdestroyedObject;
+            lastdestroyedObject = label;
+            UnityEngine.Debug.Log("object added :" + desObjIndex);
+            if (desObjIndex >= destroyedObjects.Length-1)
+            {
+                desObjIndex = 0;
+                return;
+            }
+            desObjIndex++;
         }
 
         /// <summary>
@@ -57,8 +84,15 @@ namespace Group8.FinalsFrenzy.Score
         /// </summary>
         public void addScore(int multiplier){
             int points = generatePoints();
-            score += points * multiplier;
-            UnityEngine.Debug.Log("Score: " + score);
+            if (destroyedObjects.Contains(lastdestroyedObject))
+            {
+                score += points;
+                UnityEngine.Debug.Log("too many");
+            } else
+            {
+                score += points * multiplier;
+            }
+            //UnityEngine.Debug.Log("Score: " + score);
             
         }
 

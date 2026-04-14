@@ -62,24 +62,36 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 363882143302451608, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4548464291012031594}
+    - targetCorrespondingSourceObject: {fileID: 363882143302451608, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6135934970727966536}
     - targetCorrespondingSourceObject: {fileID: 1478298975412287289, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3209092527287655271}
     - targetCorrespondingSourceObject: {fileID: 1478298975412287289, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2101442847998503586}
+    - targetCorrespondingSourceObject: {fileID: 1478298975412287289, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1321445215996195799}
     - targetCorrespondingSourceObject: {fileID: 3563765711185812053, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2310729566370213632}
     - targetCorrespondingSourceObject: {fileID: 3563765711185812053, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2469745408791141659}
+    - targetCorrespondingSourceObject: {fileID: 3563765711185812053, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6746014307818524121}
     - targetCorrespondingSourceObject: {fileID: 6323001720029750549, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6123639325925145630}
     - targetCorrespondingSourceObject: {fileID: 6323001720029750549, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7153590800002725726}
+    - targetCorrespondingSourceObject: {fileID: 6323001720029750549, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4932562017018372439}
   m_SourcePrefab: {fileID: 100100000, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
 --- !u!1 &123561456598531931 stripped
 GameObject:
@@ -112,6 +124,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &6746014307818524121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123561456598531931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2612098095299383863 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1478298975412287289, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
@@ -143,6 +168,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &1321445215996195799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2612098095299383863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3877375616699868310 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 363882143302451608, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
@@ -174,6 +212,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &6135934970727966536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3877375616699868310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &7456871252699906075 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6323001720029750549, guid: ffd5be4e4932bf1439d79f6282ca75ff, type: 3}
@@ -205,3 +256,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &4932562017018372439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7456871252699906075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
