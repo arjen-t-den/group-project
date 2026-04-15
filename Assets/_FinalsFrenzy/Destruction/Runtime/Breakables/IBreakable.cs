@@ -17,6 +17,6 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables
         /// Breaks the object at the specified point.
         /// </summary>
         /// <param name="point">The point where the fracture originated.</param>
-        void BreakAtPoint(Vector3 point);
+        void Break(Vector3 point, Vector3 direction);
     }
 }

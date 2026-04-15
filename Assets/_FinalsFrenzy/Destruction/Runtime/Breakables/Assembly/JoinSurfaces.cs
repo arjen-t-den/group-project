@@ -30,7 +30,6 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 
         private Collider[] GetTouchingParts(int maxTouchingParts = 32)
         {
-            _touchingColliders = new Collider[maxTouchingParts];
             var count = Physics.OverlapBoxNonAlloc(transform.position, transform.localScale / 2f, _touchingColliders, transform.rotation);
             if (count < _touchingColliders.Length) return _touchingColliders;
             return GetTouchingParts(maxTouchingParts * 2);

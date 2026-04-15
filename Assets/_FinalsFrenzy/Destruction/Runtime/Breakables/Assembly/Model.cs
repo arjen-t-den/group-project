@@ -6,11 +6,11 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
     public class Model : Breakable
     {
         private readonly List<Part> _parts;
-        private Model _childModel;
+        private Model _brokenModel;
 
         private void Awake()
         {
-            _childModel = transform.GetComponentInChildren<Model>();
+            _brokenModel = transform.GetComponentInChildren<Model>();
 
             // Add all child parts (not including grandchildren)
             foreach (Transform transform in transform)
@@ -20,20 +20,20 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             }
         }
 
-        public override void BreakAtPoint(Vector3 point)
+        public override void Break(Vector3 point, Vector3 direction)
         {
-            base.BreakAtPoint(point);
+            base.Break(point, direction);
 
-            if (_childModel)
-                _childModel.BreakAtPoint(point);
+            if (_brokenModel)
+                _brokenModel.Break(point, direction);
             else
-                FractureAtPoint(point);
+                FractureAtPoint(point, direction);
 
         }
 
-        private void FractureAtPoint(Vector3 point)
+        private void FractureAtPoint(Vector3 point, Vector3 direction)
         {
-
+            
         }
     }
 }

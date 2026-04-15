@@ -17,9 +17,9 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables
         /// <summary>
         /// Instantiates a broken version of the object (if available) and destroys the current one.
         /// </summary>
-        public override void BreakAtPoint(Vector3 point)
+        public override void Break(Vector3 point, Vector3 direction)
         {
-            base.BreakAtPoint(point);
+            base.Break(point, direction);
 
             if (!_brokenPrefab)
             {
