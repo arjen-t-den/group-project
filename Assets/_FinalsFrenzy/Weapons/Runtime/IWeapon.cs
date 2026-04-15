@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace Group8.FinalsFrenzy.Weapons
 {
     /// <summary>
@@ -5,6 +7,6 @@ namespace Group8.FinalsFrenzy.Weapons
     /// </summary>
     public interface IWeapon
     {
-        public void Attack();
+        public void Attack(Vector3 origin, Vector3 direction);
     }
 }

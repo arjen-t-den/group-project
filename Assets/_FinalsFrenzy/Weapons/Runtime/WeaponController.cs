@@ -9,18 +9,13 @@ namespace Group8.FinalsFrenzy.Weapons
     /// </summary>
     public class WeaponController : MonoBehaviour
     {
-        [SerializeField]
-        private InputActionReference _attack;
+        /// <summary>
+        /// The currently held weapon.
+        /// </summary>
+        public Weapon Weapon;
 
         [SerializeField]
-        [RequireInterface(typeof(IWeapon))]
-        private Object _weapon;
-        public IWeapon Weapon
-        {
-            get => _weaponRef.Get(_weapon);
-            set => _weaponRef.Set(ref _weapon, value);
-        }
-        private readonly UnityObjectReferenceCache<IWeapon, Object> _weaponRef = new();
+        private InputActionReference _attack;
 
         private void Awake() => _attack.action.Enable();
 
@@ -28,6 +23,6 @@ namespace Group8.FinalsFrenzy.Weapons
 
         private void OnDisable() => _attack.action.performed -= Attack;
 
-        private void Attack(InputAction.CallbackContext _) => Weapon.Attack();
+        private void Attack(InputAction.CallbackContext _) => Weapon.Attack(transform.position, transform.forward);
     }
 }
