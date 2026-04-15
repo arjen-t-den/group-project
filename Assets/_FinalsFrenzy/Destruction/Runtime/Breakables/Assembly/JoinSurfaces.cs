@@ -11,28 +11,42 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
     {
         private Part _part;
         private readonly HashSet<Part> _touchingParts = new();
-        private Collider[] _touchingColliders;
+        private Collider[] _touchingColliders = new Collider[32];
 
         private void Awake()
         {
             _part = GetComponent<Part>();
 
-            var colliders = Physics.OverlapBox(transform.position, transform.localScale / 2f, transform.rotation);
-            foreach (var collider in colliders)
+            var count = GetTouchingParts(out var colliders);
+            for (int i = 0; i < count; i++)
             {
+                var collider = colliders[i];
                 if (!collider.TryGetComponent<Part>(out var part)) continue;
                 _touchingParts.Add(part);
             }
 
             foreach (var neighbor in _touchingParts)
-                new Weld(_part, neighbor);
+                if (_part.GetInstanceID() > neighbor.GetInstanceID())
+                    new Weld(_part, neighbor);
         }
 
-        private Collider[] GetTouchingParts(int maxTouchingParts = 32)
+        int GetTouchingParts(out Collider[] results, int maxTouchingParts = 4)
         {
-            var count = Physics.OverlapBoxNonAlloc(transform.position, transform.localScale / 2f, _touchingColliders, transform.rotation);
-            if (count < _touchingColliders.Length) return _touchingColliders;
-            return GetTouchingParts(maxTouchingParts * 2);
+            if (_touchingColliders.Length < maxTouchingParts)
+                _touchingColliders = new Collider[maxTouchingParts];
+
+            var count = Physics.OverlapBoxNonAlloc(
+                transform.position,
+                transform.localScale / 2f + 0.01f * Vector3.one,
+                _touchingColliders,
+                transform.rotation
+            );
+
+            if (count == _touchingColliders.Length)
+                return GetTouchingParts(out results, maxTouchingParts * 2);
+
+            results = _touchingColliders;
+            return count;
         }
     }
 }
