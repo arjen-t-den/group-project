@@ -636,6 +636,7 @@ GameObject:
   - component: {fileID: 8202657787610358170}
   - component: {fileID: 399386472844963163}
   - component: {fileID: 8228688044883705590}
+  - component: {fileID: 4413412657632842324}
   m_Layer: 0
   m_Name: Intact
   m_TagString: Untagged
@@ -736,6 +737,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4413412657632842324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012813165212133739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54faa1c6df0aea4eaa3390b98b464f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.AssemblyBreakable
 --- !u!1 &5424487748563900170
 GameObject:
   m_ObjectHideFlags: 0
