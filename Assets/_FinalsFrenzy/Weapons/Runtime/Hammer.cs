@@ -1,4 +1,5 @@
 using Group8.FinalsFrenzy.Destruction.Breakables;
+using Group8.FinalsFrenzy.Button;
 using UnityEngine;
 
 namespace Group8.FinalsFrenzy.Weapons
@@ -17,6 +18,11 @@ namespace Group8.FinalsFrenzy.Weapons
         {
             var ray = new Ray(transform.position, transform.forward);
             if (!Physics.Raycast(ray, out var hit, _maxDistance)) return;
+            if (hit.collider.TryGetComponent(out Pressable pressable))
+            {
+                pressable.Press();
+                return;
+            }
             if (!hit.collider.TryGetComponent(out IBreakable breakable)) return;
             breakable.Break();
         }

@@ -60,7 +60,6 @@ namespace Group8.FinalsFrenzy.Score
         {
             destroyedObjects[desObjIndex] = lastdestroyedObject;
             lastdestroyedObject = label;
-            UnityEngine.Debug.Log("object added :" + desObjIndex);
             if (desObjIndex >= destroyedObjects.Length-1)
             {
                 desObjIndex = 0;
@@ -87,13 +86,18 @@ namespace Group8.FinalsFrenzy.Score
             if (destroyedObjects.Contains(lastdestroyedObject))
             {
                 score += points;
-                UnityEngine.Debug.Log("too many");
             } else
             {
                 score += points * multiplier;
             }
-            //UnityEngine.Debug.Log("Score: " + score);
+            UnityEngine.Debug.Log("Score: " + score);
             
+        }
+
+        public void subScore(int value)
+        {
+            score -= value;
+            UnityEngine.Debug.Log("Score: " + score);
         }
 
     }

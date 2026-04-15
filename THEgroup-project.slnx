@@ -18,10 +18,12 @@
   <Project Path="Group8.FinalsFrenzy.Weapons.csproj" />
   <Project Path="Unity.Collections.CodeGen.csproj" />
   <Project Path="Unity.Mathematics.Editor.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Group8.FinalsFrenzy.Score.csproj" />
   <Project Path="Unity.InputSystem.TestFramework.csproj" />
   <Project Path="Group8.FinalsFrenzy.Input.csproj" />
+  <Project Path="Group.FinalsFrenzy.Button.csproj" />
   <Project Path="Group8.FinalsFrenzy.Input.Editor.csproj" />
+  <Project Path="Group8.FinalsFrenzy.Shop.csproj" />
   <Project Path="Group8.FinalsFrenzy.Utilities.Editor.csproj" />
   <Project Path="Unity.Collections.Editor.csproj" />
   <Project Path="Group8.FinalsFrenzy.Audio.csproj" />

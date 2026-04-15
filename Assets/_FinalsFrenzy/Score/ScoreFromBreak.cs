@@ -13,7 +13,6 @@ namespace Group8.FinalsFrenzy.Score
         void Awake()
         {
             breakable = GetComponent<IBreakable>();
-            UnityEngine.Debug.Log(breakable != null);
         }
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created

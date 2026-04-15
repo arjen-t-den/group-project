@@ -1,11 +1,9 @@
 {
-    "name": "Group8.FinalsFrenzy.Weapons",
-    "rootNamespace": "Group8.FinalsFrenzy.Weapons",
+    "name": "Group8.FinalsFrenzy.Shop",
+    "rootNamespace": "",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:e6a916de342ec0247a7eb213dbc31130",
-        "GUID:c8bfec2a6e00dca4dbc7a8947abee781",
-        "GUID:f90dc27367ec9904bb4cee178d9ad173"
+        "GUID:f90dc27367ec9904bb4cee178d9ad173",
+        "GUID:5b2b6975eac06ca40a195d79a01b5f64"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
