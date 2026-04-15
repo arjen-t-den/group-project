@@ -3,6 +3,7 @@ using System.Runtime.Serialization;
 using UnityEngine;
 using Group8.FinalsFrenzy.Score;
 using Group8.FinalsFrenzy.Button;
+using Group8.FinalsFrenzy.Weapons;
 
 
 namespace Group8.FinalsFrenzy.Shop
@@ -12,19 +13,28 @@ namespace Group8.FinalsFrenzy.Shop
     public class shopButton : MonoBehaviour
     {
         [SerializeField] private ShopButtonData shopButtonData;
-
+        [SerializeField] private Weapon weapon;
+        
+        private string weaponName;
         private Pressable button;
         void Awake()
         {
             button = GetComponent<Pressable>();
+            if (weapon.itemLabel != null)
+            {
+                weaponName = weapon.itemLabel;
+                return;
+            }
+            weaponName = "unnamed";
         }
         void buy()
         {
             if (ScoreCounter.Instance.score >= shopButtonData.cost)
             {
                 ScoreCounter.Instance.subScore(shopButtonData.cost);
-                shopButtonData.bought = true;
+                InventoryManager.Instance.addWeapon(weaponName);
                 UnityEngine.Debug.Log("not poor");
+                equip();
             }
             else{
                 UnityEngine.Debug.Log("Pooor!!");
@@ -33,12 +43,13 @@ namespace Group8.FinalsFrenzy.Shop
 
         void equip()
         {
+            WeaponController.Instance.Weapon = weapon;
              UnityEngine.Debug.Log("weapon equiped");
         }
 
         void buttonPressed()
         {
-            if (shopButtonData.bought)
+            if (InventoryManager.Instance.isWeaponOwned(weaponName))
             {
                 equip();
             }

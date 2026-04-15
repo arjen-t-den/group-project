@@ -6,7 +6,7 @@ namespace Group8.FinalsFrenzy.Shop
     public class ShopButtonData : ScriptableObject
     {
         public int cost = 0;
-        public string itemName = "unnamed";
+        
         public bool bought = false;
     }
 }

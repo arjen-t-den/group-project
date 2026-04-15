@@ -9,6 +9,7 @@ namespace Group8.FinalsFrenzy.Weapons
     /// </summary>
     public class WeaponController : MonoBehaviour
     {
+        public static WeaponController Instance {get; private set;}
         /// <summary>
         /// The currently held weapon.
         /// </summary>
@@ -17,7 +18,17 @@ namespace Group8.FinalsFrenzy.Weapons
         [SerializeField]
         private InputActionReference _attack;
 
-        private void Awake() => _attack.action.Enable();
+        private void Awake() 
+        { 
+            if (Instance != null && Instance != this)
+            {
+                Destroy(this);
+                UnityEngine.Debug.Log("Duplicate deleted");
+            } else {
+                Instance = this;
+            }
+            _attack.action.Enable();
+        }
 
         private void OnEnable() => _attack.action.performed += Attack;
 

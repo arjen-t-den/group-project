@@ -4,16 +4,13 @@ using UnityEngine;
 
 namespace Group8.FinalsFrenzy.Weapons
 {
-    /// <summary>
-    /// Simple weapon that breaks the object in front of it.
-    /// </summary>
-    [CreateAssetMenu(menuName = "Finals Frenzy/Weapons/Hammer")]
-    public class Hammer : Weapon
+    [CreateAssetMenu(menuName = "Finals Frenzy/Weapons/testweapon")]
+    public class testWeapon : Weapon
     {
         [SerializeField]
-        private float _maxDistance = 3f;
-        
-        public override string itemLabel => "Hammer";
+        private float _maxDistance = 5f;
+        public override string itemLabel => "testWeapon";
+
         /// <summary>
         /// Break a breakable object in front of it, if there is one within range.
         /// </summary>

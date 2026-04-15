@@ -7,6 +7,7 @@ namespace Group8.FinalsFrenzy.Weapons
     /// </summary>
     public abstract class Weapon : ScriptableObject, IWeapon
     {
+        public abstract string itemLabel {get;}
         public virtual void Attack(Vector3 origin, Vector3 direction) { }
     }
 }
