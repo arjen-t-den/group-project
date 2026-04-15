@@ -33,7 +33,7 @@ namespace Group8.FinalsFrenzy.Shop
 
         void equip()
         {
-             UnityEngine.Debug.Log("weapon already bought");
+             UnityEngine.Debug.Log("weapon equiped");
         }
 
         void buttonPressed()
