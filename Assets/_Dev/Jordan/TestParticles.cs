@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-// this is more like a test script to test out the particle system and camera shake, not meant to be used in the final game
+// this is a test script to test out the particle system and camera shake, not meant to be used in the final game
 namespace Group8.FinalsFrenzy
 {
     public class TestParticles : MonoBehaviour
@@ -24,7 +24,7 @@ namespace Group8.FinalsFrenzy
 
         void Start()
         {
-            explosion = GameObject.Find("ExplosionParticles").GetComponent<ParticleSystem>();
+            explosion = GameObject.Find("ParticleEffects/ExplosionParticles").GetComponent<ParticleSystem>();
             player = GameObject.Find("FootBall");
             audioManager = FindFirstObjectByType<AudioManager>();
 
@@ -37,7 +37,13 @@ namespace Group8.FinalsFrenzy
             _movement = player.GetComponent<FirstPersonMovement>();
 
             if (_movement == null)
+            {
                 Debug.LogError("FirstPersonMovement not found on Body!", this);
+            }
+            else
+            {
+                Debug.Log("FirstPersonMovement found on Body.", this);
+            }
         }
 
         void Update()
