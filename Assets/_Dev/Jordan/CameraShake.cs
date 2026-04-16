@@ -8,6 +8,10 @@ namespace Group8.FinalsFrenzy
         private Coroutine _shakeCoroutine;
 
         // Call this method to trigger the camera shake effect, checks if the shake is already happening and stops it before starting a new one
+        // @Parameters: duration - how long the shake should last, magnitude - how intense the shake should be
+
+        // Example: public CameraShake cameraShake; cameraShake.TriggerShake(1f, 0.5f); 
+        // ^shakes the camera for 1 second with a magnitude of 0.5
         public void TriggerShake(float duration, float magnitude)
         {
             if (_shakeCoroutine != null)
