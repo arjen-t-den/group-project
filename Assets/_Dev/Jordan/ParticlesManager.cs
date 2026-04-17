@@ -7,6 +7,8 @@ namespace Group8.FinalsFrenzy
 {
     // A particle manager that allows you to instantiate particle systems by name and automatically destroy them after a set duration
     // @Parameter: effectname - the name of the particle system to play, position - where to spawn the particle system, duration - how long the particle system should last before being destroyed
+    // declare ParticlesManager pm
+    // then assign it by using pm = FindFirstObjectByType<ParticlesManager>(); 
     public class ParticlesManager : MonoBehaviour
     {
         [SerializeField] private ParticleSystem[] effects;
