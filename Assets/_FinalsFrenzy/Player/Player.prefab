@@ -411,7 +411,7 @@ MonoBehaviour:
   _forwardTransform: {fileID: 455641906281915075}
   _defaultWalkSpeed: 2.5
   RunSpeedMultiplier: 1.6
-  RunMode: 0
+  RunMode: 1
   _moveAction: {fileID: -7277219640123250252, guid: 8cc74e02b89403b44a93caabb21dfa32, type: 3}
   _runAction: {fileID: -6625417283883042520, guid: 8cc74e02b89403b44a93caabb21dfa32, type: 3}
 --- !u!114 &1977110439221495072
