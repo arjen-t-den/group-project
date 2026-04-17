@@ -39,6 +39,8 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// The part automatically chosen to represent the assembly's root part.
         /// </summary>
         public Part RootPart { get; private set; }
+
+        public List<Part> Parts { get; private set; } = new();
         #endregion
 
         private void Awake() => Rigidbody = GetComponent<Rigidbody>();
@@ -81,6 +83,18 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             {
                 part.Assembly = this;
             }
+        }
+
+        public void AddPart(Part part)
+        {
+            Parts.Add(part);
+            part.Assembly = this;
+        }
+
+        public void RemovePart(Part part)
+        {
+            Parts.Remove(part);
+            part.Assembly = null;
         }
     }
 }

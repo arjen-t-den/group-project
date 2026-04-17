@@ -2,32 +2,37 @@ using UnityEngine;
 
 namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 {
-    public class AssemblyBreakable : Breakable
+    /// <summary>
+    /// A container for parts 
+    /// </summary>
+    public class PartLOD : Breakable
     {
-        private GameObject _intact;
-        private GameObject _broken;
+        private GameObject _thisLOD;
+        private GameObject _nextLOD;
 
         private void Awake()
         {
-            _intact = gameObject;
-            _broken = transform.parent.Find("Broken").gameObject;
+            _thisLOD = gameObject;
+            _nextLOD = transform.parent.Find("Broken").gameObject;
         }
 
         public override void Break(Vector3 point, Vector3 direction)
         {
             base.Break(point, direction);
 
-            // Swap intact and broken models
-            _intact.SetActive(false);
-            _broken.SetActive(true);
+            // Swap to higher LOD
+            _thisLOD.SetActive(false);
+            _nextLOD.SetActive(true);
 
-            // Break sub-breakable if it exists
+            // Look for even higher LODs
             var colliders = Physics.OverlapSphere(point, 0.001f);
             foreach (var collider in colliders)
             {
+                // Continue if highest LOD hasn't been reached yet
                 if (!collider.TryGetComponent<IBreakable>(out var breakable))
                     continue;
 
+                // Break the highest LOD (single part)
                 breakable.Break(point, direction);
                 break;
             }

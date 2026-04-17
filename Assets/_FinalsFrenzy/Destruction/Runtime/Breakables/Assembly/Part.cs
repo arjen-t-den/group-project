@@ -38,11 +38,15 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         public override void Break(Vector3 point, Vector3 direction)
         {
             base.Break(point, direction);
-            //foreach (var weld in Welds.ToArray())
-            //    weld.Break();
-            Destroy(gameObject);
+
+            foreach (var weld in Welds.ToArray())
+            {
+                print("Broken weld between " + weld.Part0.name + " and " + weld.Part1.name);
+                weld.Break();
+            }
 
             print("Broken welds for " + name);
+            Destroy(gameObject);
         }
     }
 }
