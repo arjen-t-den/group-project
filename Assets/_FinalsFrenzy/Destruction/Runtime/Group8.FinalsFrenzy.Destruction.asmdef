@@ -1,0 +1,17 @@
+{
+    "name": "Group8.FinalsFrenzy.Destruction",
+    "rootNamespace": "Group8.FinalsFrenzy.Destruction",
+    "references": [
+        "GUID:652a092b1b9e82a4abcbbc5d91a3793f",
+        "GUID:c8bfec2a6e00dca4dbc7a8947abee781"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

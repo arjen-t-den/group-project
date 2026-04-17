@@ -1,57 +1,61 @@
-using Group8.FinalsFrenzy.Player;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Group8.FinalsFrenzy
+namespace Group8.FinalsFrenzy.Player
 {
+    [RequireComponent(typeof(FirstPersonMovement))]
     public class Footsteps : MonoBehaviour
     {
-        private GameObject player;
         private FirstPersonMovement _movement;
-        public AudioSource footstepSounds, sprintSounds;
 
-        void Start()
+        [SerializeField]
+        private AudioSource _walkSounds;
+
+        [SerializeField]
+        private AudioSource _runSounds;
+
+        private bool _isWalking;
+        private bool _isRunning;
+
+        private void Awake() => _movement = GetComponent<FirstPersonMovement>();
+
+        private void Start()
         {
-            player = GameObject.Find("FootBall");
-
-            if (player == null)
-            {
-                Debug.LogError("Could not find 'Body' in the scene!", this);
-                return;
-            }
-            _movement = player.GetComponent<FirstPersonMovement>();
-
-            if (_movement == null)
-            {
-                Debug.LogError("FirstPersonMovement not found on Body!", this);
-            }
-            else
-            {
-                Debug.Log("FirstPersonMovement found on Body.", this);
-            }
+            _walkSounds.Play();
+            _runSounds.Play();
+            _walkSounds.Pause();
+            _runSounds.Pause();
         }
 
-        
-        void Update()
+        private void Update()
         {
-            if (Keyboard.current.wKey.isPressed || Keyboard.current.aKey.isPressed || Keyboard.current.sKey.isPressed || Keyboard.current.dKey.isPressed)
+            bool isWalking = _movement.MoveDirection.sqrMagnitude > 0.5f;
+            bool isRunning = _movement.IsRunning;
+
+            if (isWalking != _isWalking || isRunning != _isRunning)
             {
-                footstepSounds.enabled = true;
-                if (_movement.IsRunning && (Keyboard.current.wKey.isPressed || Keyboard.current.aKey.isPressed || Keyboard.current.sKey.isPressed || Keyboard.current.dKey.isPressed))
+                if (isWalking)
                 {
-                    footstepSounds.enabled = false;
-                    sprintSounds.enabled = true;
+                    if (_movement.IsRunning)
+                    {
+                        _walkSounds.Pause();
+                        _runSounds.UnPause();
+                    }
+                    else
+                    {
+                        _walkSounds.UnPause();
+                        _runSounds.Pause();
+                    }
                 }
                 else
                 {
-                    sprintSounds.enabled = false;
+                    _walkSounds.Pause();
+                    _runSounds.Pause();
                 }
             }
-            else
-            {
-                footstepSounds.enabled = false;
-                sprintSounds.enabled = false;
-            }
+
+            _isWalking = isWalking;
+            _isRunning = isRunning;
         }
     }
 }
