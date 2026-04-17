@@ -57,7 +57,10 @@ namespace Group8.FinalsFrenzy.Player
         /// </summary>
         public FootBall FootBall { get; private set; }
 
-        private Vector2 _moveDirection;
+        /// <summary>
+        /// The current target direction of movement input from the player.
+        /// </summary>
+        public Vector2 MoveDirection;
 
         /// <summary>
         /// Is the character currently running?
@@ -96,7 +99,7 @@ namespace Group8.FinalsFrenzy.Player
             _runAction.action.canceled -= OnToggleRun;
         }
 
-        private void OnMove(InputAction.CallbackContext context) => _moveDirection = context.ReadValue<Vector2>();
+        private void OnMove(InputAction.CallbackContext context) => MoveDirection = context.ReadValue<Vector2>();
         private void OnToggleRun(InputAction.CallbackContext context)
         {
             if (RunMode == RunModeType.Toggle)
@@ -116,14 +119,14 @@ namespace Group8.FinalsFrenzy.Player
         {
             if (RunMode == RunModeType.Hold) IsRunning = _isRunPressed;
 
-            if (RunMode == RunModeType.Toggle && _moveDirection.magnitude < 0.1f)
+            if (RunMode == RunModeType.Toggle && MoveDirection.magnitude < 0.1f)
                 IsRunning = false;
 
             var currentSpeed = WalkSpeed;
             if (IsRunning)
                 currentSpeed *= RunSpeedMultiplier;
 
-            var targetLinearVelocity = HeadForwardRotation * new Vector3(_moveDirection.x, 0, _moveDirection.y) * currentSpeed;
+            var targetLinearVelocity = HeadForwardRotation * new Vector3(MoveDirection.x, 0, MoveDirection.y) * currentSpeed;
             FootBall.RollFromLinearVelocity(targetLinearVelocity);
         }
 
