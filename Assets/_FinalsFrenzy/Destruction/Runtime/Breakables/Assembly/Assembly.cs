@@ -33,33 +33,42 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// <summary>
         /// The mass of the assembly.
         /// </summary>
-        public float Mass => Rigidbody.mass;
+        public float Mass
+        {
+            get => Rigidbody.mass;
+            set => Rigidbody.mass = value;
+        }
 
         /// <summary>
         /// The part automatically chosen to represent the assembly's root part.
         /// </summary>
         public Part RootPart { get; private set; }
 
-        public List<Part> Parts { get; private set; } = new();
+        public HashSet<Part> Parts { get; private set; } = new();
         #endregion
 
         private void Awake() => Rigidbody = GetComponent<Rigidbody>();
 
-        private void OnEnable() => RebuildAssembly(new List<Part>());
+        private void OnEnable()
+        {
+            RebuildAssembly();
+            RootPart = SelectRoot();
+        }
 
         /// <summary>
         /// Selects a part to be the root of the assembly.
+        /// </summary>
+        /// <remarks>
         /// If a kinematic part is found, it is selected.
         /// Otherwise, the heaviest part is selected.
-        /// </summary>
-        /// <param name="assembly">The assembly of parts to select the root from.</param>
-        /// <returns></returns>
-        public Part SelectRoot(List<Part> assembly)
+        /// </remarks>
+        /// <returns>The selected root part.</returns>
+        public Part SelectRoot()
         {
             Part bestPart = null;
             var bestMass = 0f;
 
-            foreach (var part in assembly)
+            foreach (var part in Parts)
             {
                 if (part.IsKinematic) return part;
 
@@ -77,24 +86,38 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// <summary>
         /// Rebuilds the assembly and splits it into multiple assemblies if necessary.
         /// </summary>
-        public void RebuildAssembly(List<Part> assembly)
+        public void RebuildAssembly()
         {
-            foreach (var part in assembly)
+            RecalculateParts();
+            RecalculateMass();
+        }
+
+        private void RecalculateParts()
+        {
+            Parts.Clear();
+
+            var stack = new Stack<Part>();
+            stack.Push(RootPart);
+
+            while (stack.Count > 0)
             {
-                part.Assembly = this;
+                var part = stack.Pop();
+
+                if (!Parts.Add(part)) continue;
+
+                foreach (var weld in part.Welds)
+                {
+                    var other = weld.Part0 == part ? weld.Part1 : weld.Part0;
+                    stack.Push(other);
+                }
             }
         }
 
-        public void AddPart(Part part)
+        private void RecalculateMass()
         {
-            Parts.Add(part);
-            part.Assembly = this;
-        }
-
-        public void RemovePart(Part part)
-        {
-            Parts.Remove(part);
-            part.Assembly = null;
+            Mass = 0f;
+            foreach (var part in Parts)
+                Mass += part.Mass;
         }
     }
 }
