@@ -41,13 +41,16 @@ namespace Group8.FinalsFrenzy.Score
                 Instance = this;
                 UnityEngine.Debug.Log("Singleton made");
             }
+            if (PlayerPrefs.GetInt("Score") == 0)
+            {
+                PlayerPrefs.SetInt("Score", 0);
+            }
+            score = PlayerPrefs.GetInt("Score");
         } 
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            score = 0;
-            //UnityEngine.Debug.Log("Score: " + score);
         }
 
         // Update is called once per frame
@@ -90,6 +93,7 @@ namespace Group8.FinalsFrenzy.Score
             {
                 score += points * multiplier;
             }
+            PlayerPrefs.SetInt("Score", (int)score);
             UnityEngine.Debug.Log("Score: " + score);
             
         }

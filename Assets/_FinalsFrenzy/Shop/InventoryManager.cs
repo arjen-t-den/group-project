@@ -17,13 +17,20 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    public void rememberWeapon(string weaponName)
+    {
+        ownedWeapons.Add(weaponName);
+    }
+
     public void addWeapon(string weaponName)
     {
         ownedWeapons.Add(weaponName);
+        PlayerPrefs.SetString(weaponName, "has");
     }
     public void removeWeapon(string weaponName)
     {
         ownedWeapons.Remove(weaponName);
+        PlayerPrefs.DeleteKey(weaponName);
     }
     public bool isWeaponOwned(string weaponName)
     {

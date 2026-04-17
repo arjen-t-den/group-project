@@ -23,9 +23,20 @@ namespace Group8.FinalsFrenzy.Shop
             if (weapon.itemLabel != null)
             {
                 weaponName = weapon.itemLabel;
-                return;
+                
+            } else {
+                weaponName = "unnamed";
             }
-            weaponName = "unnamed";
+
+            
+        }
+        void Start()
+        {
+            if (!(PlayerPrefs.GetString(weaponName) == string.Empty))
+            {
+                UnityEngine.Debug.Log(" already bought");
+                InventoryManager.Instance.rememberWeapon(weaponName);
+            }
         }
         void buy()
         {
@@ -57,6 +68,7 @@ namespace Group8.FinalsFrenzy.Shop
             {
                 buy();
             }
+            PlayerPrefs.Save();
         }
         public void OnEnable() => button.OnPress += buttonPressed;
         public void OnDisable() => button.OnPress -= buttonPressed;
