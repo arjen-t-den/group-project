@@ -27,7 +27,7 @@ namespace Group8.FinalsFrenzy
             }
             else
             {
-                Debug.Log("FirstPersonMovement found on Body.", this);
+                //Debug.Log("FirstPersonMovement found on Body.", this);
             }
         }
 
