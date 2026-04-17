@@ -19,7 +19,6 @@ public class MenuManager : MonoBehaviour
         mainMenuPanel.SetActive(true);
         settingsPanel.SetActive(false);
         mapSelectPanel.SetActive(false);
-        finishScreenPanel.SetActive(false);
         weaponsPanel.SetActive(false);
     }
 
@@ -28,7 +27,6 @@ public class MenuManager : MonoBehaviour
         mainMenuPanel.SetActive(false);
         settingsPanel.SetActive(true);
         mapSelectPanel.SetActive(false);
-        finishScreenPanel.SetActive(false);
         weaponsPanel.SetActive(false);
     }
 
@@ -37,7 +35,6 @@ public class MenuManager : MonoBehaviour
         mainMenuPanel.SetActive(false);
         settingsPanel.SetActive(false);
         mapSelectPanel.SetActive(true);
-        finishScreenPanel.SetActive(false);
         weaponsPanel.SetActive(false);
     }
 
@@ -46,7 +43,6 @@ public class MenuManager : MonoBehaviour
         mainMenuPanel.SetActive(false);
         settingsPanel.SetActive(false);
         mapSelectPanel.SetActive(false);
-        finishScreenPanel.SetActive(false);
         weaponsPanel.SetActive(true);
     }
 
