@@ -6,7 +6,6 @@ public class MenuManager : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject settingsPanel;
     public GameObject mapSelectPanel;
-    public GameObject finishScreenPanel;
     public GameObject weaponsPanel;
 
     void Start()
