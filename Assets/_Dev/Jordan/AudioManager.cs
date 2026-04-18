@@ -6,12 +6,22 @@ namespace Group8.FinalsFrenzy
 {
     public class AudioManager : MonoBehaviour
     {
+        public static AudioManager instance { get; private set; }
         public Sound[] sounds;
 
         private void Awake()
         {
             foreach (Sound s in sounds)
             {
+                // single manager set up
+                if (instance != null && instance != this)
+                {
+                    Destroy(gameObject);
+                    return;
+                }
+                instance = this;
+                DontDestroyOnLoad(gameObject);
+
                 s.source = gameObject.AddComponent<AudioSource>();
                 s.source.clip = s.clip;
 
