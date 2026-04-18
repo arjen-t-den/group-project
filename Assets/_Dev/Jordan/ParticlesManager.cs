@@ -11,12 +11,23 @@ namespace Group8.FinalsFrenzy
     // then assign it by using pm = FindFirstObjectByType<ParticlesManager>(); 
     public class ParticlesManager : MonoBehaviour
     {
+        public static ParticlesManager instance { get; private set; }
+
         [SerializeField] private ParticleSystem[] effects;
 
         private Dictionary<string, ParticleSystem> effectsDictionary;
 
         private void Awake()
         {
+            // single manager set up
+            if (instance != null && instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+
             effectsDictionary = new Dictionary<string, ParticleSystem>();
             foreach (var effect in effects)
             {
