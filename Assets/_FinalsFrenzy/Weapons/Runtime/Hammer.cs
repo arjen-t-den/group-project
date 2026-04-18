@@ -18,7 +18,7 @@ namespace Group8.FinalsFrenzy.Weapons
             var ray = new Ray(transform.position, transform.forward);
             if (!Physics.Raycast(ray, out var hit, _maxDistance)) return;
             if (!hit.collider.TryGetComponent(out IBreakable breakable)) return;
-            breakable.Break(hit.point, Vector3.zero);
+            breakable.Break(hit.point, transform.forward);
         }
     }
 }

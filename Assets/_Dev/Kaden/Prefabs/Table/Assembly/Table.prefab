@@ -129,7 +129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
   Mass: 16
   IsKinematic: 0
-  Assembly: {fileID: 0}
 --- !u!114 &2930828927839070890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +344,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
   Mass: 16
   IsKinematic: 0
-  Assembly: {fileID: 0}
 --- !u!114 &2052621696140323754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,7 +661,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
   Mass: 16
   IsKinematic: 0
-  Assembly: {fileID: 0}
 --- !u!114 &5603618140403086647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -818,7 +815,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
   Mass: 16
   IsKinematic: 0
-  Assembly: {fileID: 0}
 --- !u!114 &1103387727654624499
 MonoBehaviour:
   m_ObjectHideFlags: 0

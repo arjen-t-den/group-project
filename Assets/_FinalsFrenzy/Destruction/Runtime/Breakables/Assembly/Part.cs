@@ -7,10 +7,9 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
     {
         public float Mass = 1f;
         public bool IsKinematic;
-        public Assembly Assembly;
-        public List<Weld> Welds = new();
 
-        private void Awake() => Assembly = GetComponentInParent<Assembly>();
+        public Assembly Assembly { get; set; }
+        public List<Weld> Welds = new();
 
         /// <summary>
         /// Breaks all of the part's welds and then destroys itself.
@@ -20,10 +19,22 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         {
             base.Break(point, direction);
 
+            var assembly = Assembly;
+
             foreach (var weld in Welds.ToArray())
                 weld.Break();
 
+            Assembly.RemovePart(this);
+
+            if (assembly) AssemblyBuilder.Rebuild(assembly);
+
             Destroy(gameObject);
+        }
+
+        private void OnDestroy()
+        {
+            if (Assembly)
+                Assembly.Parts.Remove(this);
         }
     }
 }

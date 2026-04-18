@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
@@ -18,12 +19,20 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// <summary>
         /// The linear velocity vector of the assembly.
         /// </summary>
-        public Vector3 LinearVelocity => Rigidbody.linearVelocity;
+        public Vector3 LinearVelocity
+        {
+            get => Rigidbody.linearVelocity;
+            set => Rigidbody.linearVelocity = value;
+        }
 
         /// <summary>
         /// The angular velocity vector of the assembly.
         /// </summary>
-        public Vector3 AngularVelocity => Rigidbody.angularVelocity;
+        public Vector3 AngularVelocity
+        {
+            get => Rigidbody.angularVelocity;
+            set => Rigidbody.angularVelocity = value;
+        }
 
         /// <summary>
         /// The center of mass of the assembly in world space.
@@ -44,15 +53,16 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// </summary>
         public Part RootPart { get; private set; }
 
-        public HashSet<Part> Parts { get; private set; } = new();
+        public List<Part> Parts { get; private set; } = new();
         #endregion
 
         private void Awake() => Rigidbody = GetComponent<Rigidbody>();
 
-        private void OnEnable()
+        private void Start()
         {
-            RebuildAssembly();
-            RootPart = SelectRoot();
+            if (Parts.Count > 0) return;
+            var parts = FindObjectsByType<Part>(FindObjectsSortMode.None).ToList();
+            Initialize(parts);
         }
 
         /// <summary>
@@ -83,42 +93,36 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             return bestPart;
         }
 
-        /// <summary>
-        /// Rebuilds the assembly and splits it into multiple assemblies if necessary.
-        /// </summary>
-        public void RebuildAssembly()
+        public void Initialize(List<Part> parts)
         {
-            if (!RootPart) RootPart = SelectRoot();
-            RecalculateParts();
+            foreach (var part in parts)
+                AddPart(part);
+
             RecalculateMass();
-        }
-
-        private void RecalculateParts()
-        {
-            Parts.Clear();
-
-            var stack = new Stack<Part>();
-            stack.Push(RootPart);
-
-            while (stack.Count > 0)
-            {
-                var part = stack.Pop();
-
-                if (!Parts.Add(part)) continue;
-
-                foreach (var weld in part.Welds)
-                {
-                    var other = weld.Part0 == part ? weld.Part1 : weld.Part0;
-                    stack.Push(other);
-                }
-            }
+            RootPart = SelectRoot();
         }
 
         private void RecalculateMass()
         {
             Mass = 0f;
+
             foreach (var part in Parts)
                 Mass += part.Mass;
+
+            Rigidbody.mass = Mass;
+        }
+
+        private void AddPart(Part part)
+        {
+            Parts.Add(part);
+            part.Assembly = this;
+            part.transform.SetParent(transform);
+        }
+
+        public void RemovePart(Part part)
+        {
+            Parts.Remove(part);
+            part.Assembly = null;
         }
     }
 }
