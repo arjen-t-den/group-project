@@ -88,6 +88,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// </summary>
         public void RebuildAssembly()
         {
+            if (!RootPart) RootPart = SelectRoot();
             RecalculateParts();
             RecalculateMass();
         }
