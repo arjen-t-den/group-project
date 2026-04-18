@@ -3,18 +3,15 @@ using UnityEngine;
 namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 {
     /// <summary>
-    /// A container for parts 
+    /// A container for parts that swaps to a higher LOD when broken.
     /// </summary>
     public class PartLOD : Breakable
     {
+        [SerializeField]
         private GameObject _thisLOD;
-        private GameObject _nextLOD;
 
-        private void Awake()
-        {
-            _thisLOD = gameObject;
-            _nextLOD = transform.parent.Find("Broken").gameObject;
-        }
+        [SerializeField]
+        private GameObject _nextLOD;
 
         public override void Break(Vector3 point, Vector3 direction)
         {
