@@ -3,24 +3,11 @@ using UnityEngine;
 
 namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 {
+    /// <summary>
+    /// Helper methods for rebuilding assembles.
+    /// </summary>
     public static class AssemblyBuilder
     {
-        /// <summary>
-        /// Builds assemblies from a list of parts, grouping them by their weld connections.
-        /// </summary>
-        /// <param name="parts">The list of parts to include in the assembly.</param>
-        public static void Build(List<Part> parts)
-        {
-            var visitedParts = new HashSet<Part>();
-
-            foreach (var part in parts)
-            {
-                if (visitedParts.Contains(part)) continue;
-                var connected = GroupFromPart(part, visitedParts);
-                CreateAssembly(connected);
-            }
-        }
-
         /// <summary>
         /// Groups parts connected to the start part through welds.
         /// </summary>
