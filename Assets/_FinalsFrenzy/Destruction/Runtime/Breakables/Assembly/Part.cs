@@ -29,13 +29,14 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
                 assembly.RemovePart(this);
                 Assemblies.Rebuild(assembly);
             }
+
             Destroy(gameObject);
         }
 
         private void OnDestroy()
         {
             if (!Assembly) return;
-            Assembly.Parts.Remove(this);
+            Assembly.RemovePart(this);
         }
     }
 }

@@ -41,17 +41,17 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// </summary>
         /// <param name="parts">The list of parts to include in the assembly.</param>
         /// <returns>The created assembly.</returns>
-        public static Assembly CreateAssembly(List<Part> parts)
+        public static Assembly CreateAssembly(List<Part> parts, string name)
         {
-            Debug.Log("Created new assembly!");
-            var gameObject = new GameObject("Assembly");
+            var gameObject = new GameObject(name + " (Broken)");
             var assembly = gameObject.AddComponent<Assembly>();
-            assembly.Initialize(parts);
+            assembly.Initialize(parts, name);
             return assembly;
         }
 
         private static void DestroyAssembly(Assembly assembly)
         {
+            _rebuildingAssemblies.Remove(assembly);
             Object.Destroy(assembly.gameObject);
         }
 
@@ -65,12 +65,10 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         {
             if (!_rebuildingAssemblies.Add(assembly)) return;
 
-            // If root part is destroyed or not in assembly, select a new one.
-            if (!assembly.RootPart || !assembly.Parts.Contains(assembly.RootPart))
+            if (!assembly.HasRootPart())
             {
-                if (assembly.Parts.Count == 0)
+                if (assembly.IsEmpty())
                 {
-                    _rebuildingAssemblies.Remove(assembly);
                     DestroyAssembly(assembly);
                     return;
                 }
@@ -103,7 +101,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             // Create new assemblies for each group.
             foreach (var group in groups)
             {
-                var newAssembly = CreateAssembly(group);
+                var newAssembly = CreateAssembly(group, assembly.Name);
 
                 newAssembly.LinearVelocity = linearVelocity;
                 newAssembly.AngularVelocity = angularVelocity;
