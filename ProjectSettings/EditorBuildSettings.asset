@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_FinalsFrenzy/Level/Office Level.unity
+    guid: c4bfaa536c9b10f439f7bd851b06f0d0
+  - enabled: 1
+    path: Assets/_FinalsFrenzy/Level/Factory Level.unity
+    guid: 35d3d08f5b6d36c4b81fbab7dca6d8d2
+  - enabled: 1
+    path: Assets/menus/Menus.unity
+    guid: e37f18be29d6fe34bae46d9d0fca2a56
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 8cc74e02b89403b44a93caabb21dfa32, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8175064241395268824}
   - component: {fileID: 2855366134723778786}
   - component: {fileID: 8013986496461077824}
-  - component: {fileID: 1238926548366636269}
   m_Layer: 5
   m_Name: Colourblind Dropdown
   m_TagString: Untagged
@@ -147,21 +146,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_AlphaFadeSpeed: 0.15
---- !u!114 &1238926548366636269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170306019042830674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8fe8963d60f34d6591e4100edddd191, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DropdownScript
-  _dropdown: {fileID: 0}
-  dropdownId: ColourblindSetting
-  defaultValue: 0
 --- !u!1 &225919479127012672
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +952,12 @@ MonoBehaviour:
   bloomSlider: {fileID: 1163407057186568521}
   verticalSensitivitySlider: {fileID: 3604505005067959391}
   horizontalSensitivitySlider: {fileID: 2118677663350256303}
-  colourblindDropdown: {fileID: 0}
+  volumeText: {fileID: 1146159385087786195}
+  brightnessText: {fileID: 7029394694650262980}
+  bloomText: {fileID: 3274007198242136978}
+  vSensText: {fileID: 4081338454014047795}
+  hSensText: {fileID: 6489345677900313888}
+  colourblindDropdown: {fileID: 8013986496461077824}
 --- !u!1 &1694773386527072487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,7 +1366,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7310534801124435719}
   - component: {fileID: 1163407057186568521}
-  - component: {fileID: 3466736109387072516}
   - component: {fileID: 41195267825379402}
   - component: {fileID: 7779574568367147460}
   m_Layer: 5
@@ -1460,22 +1448,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3466736109387072516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2747389487789472675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04cde52430350e64ab97c82c57ed7b03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SliderScript
-  _slider: {fileID: 1163407057186568521}
-  _sliderText: {fileID: 3274007198242136978}
-  sliderId: Bloom
-  defaultValue: 50
 --- !u!222 &41195267825379402
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2607,7 +2579,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2614551932294472954}
   - component: {fileID: 7512056455370594243}
-  - component: {fileID: 5271685784149965153}
   - component: {fileID: 3056108969118242091}
   - component: {fileID: 6113775713205953109}
   m_Layer: 5
@@ -2690,22 +2661,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5271685784149965153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5520544285417604397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04cde52430350e64ab97c82c57ed7b03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SliderScript
-  _slider: {fileID: 7512056455370594243}
-  _sliderText: {fileID: 7029394694650262980}
-  sliderId: Brightness
-  defaultValue: 50
 --- !u!222 &3056108969118242091
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3852,7 +3807,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2256391199822582616}
   - component: {fileID: 2118677663350256303}
-  - component: {fileID: 1168730549138739122}
   - component: {fileID: 2791446930082866883}
   - component: {fileID: 2722737932586103533}
   m_Layer: 5
@@ -3935,22 +3889,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1168730549138739122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7085180933789508380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04cde52430350e64ab97c82c57ed7b03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SliderScript
-  _slider: {fileID: 2118677663350256303}
-  _sliderText: {fileID: 6489345677900313888}
-  sliderId: HorizontalSens
-  defaultValue: 50
 --- !u!222 &2791446930082866883
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3999,7 +3937,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3830468555519445438}
   - component: {fileID: 3604505005067959391}
-  - component: {fileID: 1413699912352961760}
   - component: {fileID: 1901880701790094076}
   - component: {fileID: 1397275712249787331}
   m_Layer: 5
@@ -4082,22 +4019,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1413699912352961760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7175022654660235363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04cde52430350e64ab97c82c57ed7b03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SliderScript
-  _slider: {fileID: 3604505005067959391}
-  _sliderText: {fileID: 4081338454014047795}
-  sliderId: VerticalSens
-  defaultValue: 50
 --- !u!222 &1901880701790094076
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4146,7 +4067,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3036536012172254586}
   - component: {fileID: 8284784457662609258}
-  - component: {fileID: 8842016688933207029}
   - component: {fileID: 6344689679397397161}
   - component: {fileID: 418184577752779831}
   m_Layer: 5
@@ -4229,22 +4149,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8842016688933207029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7283678968266134022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04cde52430350e64ab97c82c57ed7b03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SliderScript
-  _slider: {fileID: 8284784457662609258}
-  _sliderText: {fileID: 1146159385087786195}
-  sliderId: Volume
-  defaultValue: 50
 --- !u!222 &6344689679397397161
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -25,19 +25,27 @@ public class PauseMenuManager : MonoBehaviour
         }
     }
 
-    public void PauseGame()
+   public void PauseGame()
     {
         pauseMenuPanel.SetActive(true);
-        Time.timeScale = 0f; // This freezes the game in its tracks
+        Time.timeScale = 0f; // Freezes the game
         isPaused = true;
+
+        // This unlocks the mouse and makes it visible so you can click buttons
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
-    public void ResumeGame()
+   public void ResumeGame()
     {
         pauseMenuPanel.SetActive(false);
         if (settingsPanel != null) settingsPanel.SetActive(false); 
-        Time.timeScale = 1f; // This unfreezes the game
+        Time.timeScale = 1f; // Unfreezes the game
         isPaused = false;
+
+        // This hides the mouse and locks it back to the game window
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void LoadMainMenu()
@@ -46,7 +54,7 @@ public class PauseMenuManager : MonoBehaviour
         Time.timeScale = 1f; 
         
         // Replace "MainMenu" with the exact name of your main menu scene
-        SceneManager.LoadScene("MainMenu"); 
+        SceneManager.LoadScene("Menus"); 
     }
 
     public void OpenSettings()
