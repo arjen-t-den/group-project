@@ -43,10 +43,16 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// <returns>The created assembly.</returns>
         public static Assembly CreateAssembly(List<Part> parts)
         {
+            Debug.Log("Created new assembly!");
             var gameObject = new GameObject("Assembly");
             var assembly = gameObject.AddComponent<Assembly>();
             assembly.Initialize(parts);
             return assembly;
+        }
+
+        private static void DestroyAssembly(Assembly assembly)
+        {
+            Object.Destroy(assembly.gameObject);
         }
 
         private static readonly HashSet<Assembly> _rebuildingAssemblies = new();
@@ -59,16 +65,42 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         {
             if (!_rebuildingAssemblies.Add(assembly)) return;
 
+            // If root part is destroyed or not in assembly, select a new one.
+            if (!assembly.RootPart || !assembly.Parts.Contains(assembly.RootPart))
+            {
+                if (assembly.Parts.Count == 0)
+                {
+                    _rebuildingAssemblies.Remove(assembly);
+                    DestroyAssembly(assembly);
+                    return;
+                }
+
+                assembly.SelectRootPart();
+            }
+
+            var rootPart = assembly.RootPart;
             var parts = assembly.Parts;
-            
-            foreach (var part in parts)
-                part.Assembly = null;
 
             var linearVelocity = assembly.LinearVelocity;
             var angularVelocity = assembly.AngularVelocity;
 
-            var groups = FindDisconnectedGroups(parts);
+            var groups = FindDisconnectedGroups(parts, rootPart);
 
+            // Do not rebuild if assembly is intact.
+            if (groups.Count == 0)
+            {
+                _rebuildingAssemblies.Remove(assembly);
+                return;
+            }
+
+            // Remove disconnected parts from the assembly.
+            foreach (var group in groups)
+                foreach (var part in group)
+                    assembly.RemovePart(part);
+
+            assembly.RecalculateMass();
+
+            // Create new assemblies for each group.
             foreach (var group in groups)
             {
                 var newAssembly = CreateAssembly(group);
@@ -78,8 +110,6 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             }
 
             _rebuildingAssemblies.Remove(assembly);
-
-            Object.Destroy(assembly.gameObject);
         }
 
         /// <summary>
@@ -90,10 +120,12 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// </remarks>
         /// <param name="parts">The list of parts to check.</param>
         /// <returns>A list of groups of parts.</returns>
-        private static List<List<Part>> FindDisconnectedGroups(List<Part> parts)
+        private static List<List<Part>> FindDisconnectedGroups(List<Part> parts, Part rootPart)
         {
             var groups = new List<List<Part>>();
             var visitedParts = new HashSet<Part>();
+
+            GetGroupFromPart(rootPart, visitedParts);
 
             foreach (var part in parts)
             {

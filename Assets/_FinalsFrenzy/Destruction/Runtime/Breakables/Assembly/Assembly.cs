@@ -72,15 +72,18 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// If a kinematic part is found, it is selected.
         /// Otherwise, the heaviest part is selected.
         /// </remarks>
-        /// <returns>The selected root part.</returns>
-        public Part SelectRoot()
+        public void SelectRootPart()
         {
             Part bestPart = null;
             var bestMass = 0f;
 
             foreach (var part in Parts)
             {
-                if (part.IsKinematic) return part;
+                if (part.IsKinematic)
+                {
+                    bestPart = part;
+                    break;
+                }
 
                 var mass = part.Mass;
                 if (mass > bestMass)
@@ -90,7 +93,8 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
                 }
             }
 
-            return bestPart;
+            RootPart = bestPart;
+            RootPart.GetComponent<MeshRenderer>().material.color = Color.red;
         }
 
         public void Initialize(List<Part> parts)
@@ -99,10 +103,10 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
                 AddPart(part);
 
             RecalculateMass();
-            RootPart = SelectRoot();
+            SelectRootPart();
         }
 
-        private void RecalculateMass()
+        public void RecalculateMass()
         {
             Mass = 0f;
 

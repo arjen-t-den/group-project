@@ -24,8 +24,11 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             foreach (var weld in Welds.ToArray())
                 weld.Break();
 
-            Assembly.RemovePart(this);
-            if (assembly) Assemblies.Rebuild(assembly);
+            if (assembly)
+            {
+                assembly.RemovePart(this);
+                Assemblies.Rebuild(assembly);
+            }
             Destroy(gameObject);
         }
 
