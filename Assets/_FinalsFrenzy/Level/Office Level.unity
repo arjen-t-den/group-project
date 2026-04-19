@@ -5469,15 +5469,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 155358891}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_GameObject: {fileID: 905808482}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.000000087596256, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9385471, y: 0.0028647128, z: 6.86331}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 155358891}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910116042
 GameObject:
   m_ObjectHideFlags: 0
@@ -8211,6 +8202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cded085d155cde949b60f67a11dbc3bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.ProbeVolume
+  version: 2
+  globalVolume: 0
   mode: 2
   size: {x: 48.158257, y: 7.091642, z: 23.170786}
   overrideRendererFilters: 0
@@ -8241,8 +8234,6 @@ MonoBehaviour:
     e33: 1
   cachedHashCode: -276269003
   fillEmptySpaces: 0
-  version: 2
-  globalVolume: 0
 --- !u!4 &1101795920
 Transform:
   m_ObjectHideFlags: 0
@@ -14843,7 +14834,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 750040344}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1424633734302270273, guid: d3162b8e8ad30a54eb9a75d96cf32d63, type: 3}
       propertyPath: m_Enabled
@@ -17526,3 +17517,4 @@ SceneRoots:
   - {fileID: 10751936}
   - {fileID: 1880301694}
   - {fileID: 322529803}
+  - {fileID: 1884583714}
