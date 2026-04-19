@@ -14,10 +14,10 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables
         event Action OnBreak;
 
         /// <summary>
-        /// Breaks the object at the specified point.
+        /// Breaks the object.
         /// </summary>
-        /// <param name="point">The point where the fracture originated.</param>
-        /// <param name="direction">The direction of the applied force.</param>
+        /// <param name="point">The point of impact that caused the break.</param>
+        /// <param name="direction">The direction of the applied impact force.</param>
         void Break(Vector3 point, Vector3 direction);
     }
 }

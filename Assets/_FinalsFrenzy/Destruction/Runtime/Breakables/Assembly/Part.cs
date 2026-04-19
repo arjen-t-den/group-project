@@ -11,10 +11,10 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         public Assembly Assembly { get; set; }
         public List<Weld> Welds = new();
 
+        /// <inheritdoc/>
         /// <summary>
         /// Breaks all of the part's welds and then destroys itself.
         /// </summary>
-        /// <inheritdoc/>
         public override void Break(Vector3 point, Vector3 direction)
         {
             base.Break(point, direction);
@@ -25,16 +25,14 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
                 weld.Break();
 
             Assembly.RemovePart(this);
-
-            if (assembly) AssemblyBuilder.Rebuild(assembly);
-
+            if (assembly) Assemblies.Rebuild(assembly);
             Destroy(gameObject);
         }
 
         private void OnDestroy()
         {
-            if (Assembly)
-                Assembly.Parts.Remove(this);
+            if (!Assembly) return;
+            Assembly.Parts.Remove(this);
         }
     }
 }

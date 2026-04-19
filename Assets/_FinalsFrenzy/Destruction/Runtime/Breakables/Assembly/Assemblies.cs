@@ -6,7 +6,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
     /// <summary>
     /// Helper methods for rebuilding assembles.
     /// </summary>
-    public static class AssemblyBuilder
+    public static class Assemblies
     {
         /// <summary>
         /// Groups parts connected to the start part through welds.
@@ -14,7 +14,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// <param name="start">An arbitrary part in the group to traverse from.</param>
         /// <param name="visited">Parts to avoid that have already been visited.</param>
         /// <returns>A list of parts connected to the start part through welds.</returns>
-        private static List<Part> GroupFromPart(Part start, HashSet<Part> visited)
+        private static List<Part> GetGroupFromPart(Part start, HashSet<Part> visited)
         {
             var group = new List<Part>();
             var stack = new Stack<Part>();
@@ -49,7 +49,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             return assembly;
         }
 
-        private static readonly HashSet<Assembly> _rebuilding = new();
+        private static readonly HashSet<Assembly> _rebuildingAssemblies = new();
 
         /// <summary>
         /// Rebuilds an assembly from its parts, creating new assemblies for any disconnected groups.
@@ -57,7 +57,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// <param name="assembly">The assembly to rebuild.</param>
         public static void Rebuild(Assembly assembly)
         {
-            if (!_rebuilding.Add(assembly)) return;
+            if (!_rebuildingAssemblies.Add(assembly)) return;
 
             var parts = assembly.Parts;
             
@@ -77,7 +77,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
                 newAssembly.AngularVelocity = angularVelocity;
             }
 
-            _rebuilding.Remove(assembly);
+            _rebuildingAssemblies.Remove(assembly);
 
             Object.Destroy(assembly.gameObject);
         }
@@ -98,7 +98,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             foreach (var part in parts)
             {
                 if (visitedParts.Contains(part)) continue;
-                var group = GroupFromPart(part, visitedParts);
+                var group = GetGroupFromPart(part, visitedParts);
                 groups.Add(group);
             }
 
