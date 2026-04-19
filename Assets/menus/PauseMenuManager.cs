@@ -6,12 +6,15 @@ public class PauseMenuManager : MonoBehaviour
     [Header("UI Panels")]
     public GameObject pauseMenuPanel;
     public GameObject settingsPanel; 
+    public GameObject endScreenPanel; // NEW: Slot for your end screen
+
+    [Header("Player References")]
+    public MonoBehaviour playerCameraScript; 
 
     private bool isPaused = false;
 
     void Update()
     {
-        // Toggle the pause menu when the Escape key is pressed
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
@@ -25,36 +28,39 @@ public class PauseMenuManager : MonoBehaviour
         }
     }
 
-   public void PauseGame()
+    public void PauseGame()
     {
         pauseMenuPanel.SetActive(true);
-        Time.timeScale = 0f; // Freezes the game
+        Time.timeScale = 0f; 
         isPaused = true;
 
-        // This unlocks the mouse and makes it visible so you can click buttons
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+
+        if (playerCameraScript != null) playerCameraScript.enabled = false;
     }
 
-   public void ResumeGame()
+    public void ResumeGame()
     {
         pauseMenuPanel.SetActive(false);
         if (settingsPanel != null) settingsPanel.SetActive(false); 
-        Time.timeScale = 1f; // Unfreezes the game
+        if (endScreenPanel != null) endScreenPanel.SetActive(false); // NEW: Hide end screen if we resume
+
+        Time.timeScale = 1f; 
         isPaused = false;
 
-        // This hides the mouse and locks it back to the game window
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        if (playerCameraScript != null) playerCameraScript.enabled = true;
     }
 
-    public void LoadMainMenu()
+    // NEW: This opens the End Screen instead of leaving the game
+    public void OpenEndScreen()
     {
-        // We must unfreeze time before leaving the scene!
-        Time.timeScale = 1f; 
-        
-        // Replace "MainMenu" with the exact name of your main menu scene
-        SceneManager.LoadScene("Menus"); 
+        pauseMenuPanel.SetActive(false);
+        if (settingsPanel != null) settingsPanel.SetActive(false);
+        if (endScreenPanel != null) endScreenPanel.SetActive(true);
     }
 
     public void OpenSettings()
@@ -67,6 +73,13 @@ public class PauseMenuManager : MonoBehaviour
     {
         if (settingsPanel != null) settingsPanel.SetActive(false);
         pauseMenuPanel.SetActive(true);
+    }
+
+    // This is your original function, we will just wire it to a different button now
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1f; 
+        SceneManager.LoadScene("Menus"); 
     }
 
     public void QuitGame()
