@@ -39,7 +39,7 @@ namespace Group8.FinalsFrenzy.Score
                 UnityEngine.Debug.Log("Duplicate deleted");
             } else {
                 Instance = this;
-                UnityEngine.Debug.Log("Singleton made");
+                //UnityEngine.Debug.Log("Singleton made");
             }
             if (PlayerPrefs.GetInt("Score") == 0)
             {
