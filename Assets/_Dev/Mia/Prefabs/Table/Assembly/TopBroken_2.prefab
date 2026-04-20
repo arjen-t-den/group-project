@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5998976044190258186
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1165870957159247764, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_Name
+      value: TopBroken_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072853946812968865, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 129049090277071672, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1219931824719669765}
+    - targetCorrespondingSourceObject: {fileID: 5905644088983377885, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1751304147072191999}
+    - targetCorrespondingSourceObject: {fileID: 8779310219346215065, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3128417534763701318}
+    - targetCorrespondingSourceObject: {fileID: 2725708501735438747, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5441906764797309476}
+  m_SourcePrefab: {fileID: 100100000, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+--- !u!1 &195261100935381975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5905644088983377885, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+  m_PrefabInstance: {fileID: 5998976044190258186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1751304147072191999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195261100935381975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
+  Mass: 1
+  IsKinematic: 0
+  Assembly: {fileID: 0}
+--- !u!1 &3068856579087357075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8779310219346215065, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+  m_PrefabInstance: {fileID: 5998976044190258186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3128417534763701318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068856579087357075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
+  Mass: 1
+  IsKinematic: 0
+  Assembly: {fileID: 0}
+--- !u!1 &5947809917338685234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 129049090277071672, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+  m_PrefabInstance: {fileID: 5998976044190258186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1219931824719669765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947809917338685234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
+  Mass: 1
+  IsKinematic: 0
+  Assembly: {fileID: 0}
+--- !u!1 &8544187888113954193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2725708501735438747, guid: 67228397e509a5d4f86a6fc4b768f60f, type: 3}
+  m_PrefabInstance: {fileID: 5998976044190258186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5441906764797309476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8544187888113954193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
+  Mass: 1
+  IsKinematic: 0
+  Assembly: {fileID: 0}

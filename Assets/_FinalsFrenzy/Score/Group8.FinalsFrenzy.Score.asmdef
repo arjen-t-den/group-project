@@ -1,0 +1,16 @@
+{
+    "name": "Group8.FinalsFrenzy.Score",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e6a916de342ec0247a7eb213dbc31130"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

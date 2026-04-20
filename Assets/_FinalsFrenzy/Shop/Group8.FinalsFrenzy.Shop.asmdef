@@ -1,0 +1,18 @@
+{
+    "name": "Group8.FinalsFrenzy.Shop",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f90dc27367ec9904bb4cee178d9ad173",
+        "GUID:5b2b6975eac06ca40a195d79a01b5f64",
+        "GUID:b1be53a74b10d0d4d9fec96c30aecbbe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
