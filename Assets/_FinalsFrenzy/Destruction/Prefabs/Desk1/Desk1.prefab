@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8109515862561340996}
   - component: {fileID: 1800899947812709371}
   - component: {fileID: 6667939986510949956}
+  - component: {fileID: 322094049052409082}
   m_Layer: 0
   m_Name: Leg_1
   m_TagString: Untagged
@@ -68,6 +69,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &322094049052409082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85950885424572689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
 --- !u!1 &1882550057694639252
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,6 +92,7 @@ GameObject:
   - component: {fileID: 3881911526437916242}
   - component: {fileID: 6170684125815034288}
   - component: {fileID: 2821231572364953726}
+  - component: {fileID: 5532304622592090606}
   m_Layer: 0
   m_Name: Leg_6
   m_TagString: Untagged
@@ -136,6 +150,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &5532304622592090606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882550057694639252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
 --- !u!1 &4059246008110081001
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,6 +173,7 @@ GameObject:
   - component: {fileID: 8810997635859615581}
   - component: {fileID: 6397996660760362315}
   - component: {fileID: 1356905026202647835}
+  - component: {fileID: 2999278305719056337}
   m_Layer: 0
   m_Name: Leg_4
   m_TagString: Untagged
@@ -204,6 +231,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &2999278305719056337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4059246008110081001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
 --- !u!1 &4164960149526651586
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,6 +254,7 @@ GameObject:
   - component: {fileID: 8000774380715642274}
   - component: {fileID: 1495749955745443648}
   - component: {fileID: 9063952140870399670}
+  - component: {fileID: 2920926400043412475}
   m_Layer: 0
   m_Name: Leg_5
   m_TagString: Untagged
@@ -272,6 +312,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &2920926400043412475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4164960149526651586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
 --- !u!1 &4728761818213439411
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,6 +335,7 @@ GameObject:
   - component: {fileID: 470619268640822419}
   - component: {fileID: 402462332860906770}
   - component: {fileID: 3782237729697191016}
+  - component: {fileID: 1786606838124272763}
   m_Layer: 0
   m_Name: Leg_3
   m_TagString: Untagged
@@ -340,6 +393,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &1786606838124272763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4728761818213439411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
 --- !u!1 &5167690039744510864
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +416,7 @@ GameObject:
   - component: {fileID: 282641786339849159}
   - component: {fileID: 8369995694828327059}
   - component: {fileID: 2031135327428677767}
+  - component: {fileID: 8698797729469671054}
   m_Layer: 0
   m_Name: Leg_2
   m_TagString: Untagged
@@ -408,6 +474,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &8698797729469671054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167690039744510864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
 --- !u!1 &5188988946759295529
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,10 +495,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2749756394835434391}
-  - component: {fileID: 3048795068518781153}
-  - component: {fileID: 2953124948519071659}
   m_Layer: 0
-  m_Name: desk1
+  m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -450,64 +526,6 @@ Transform:
   - {fileID: 4156282729899302724}
   m_Father: {fileID: 6607067672067829289}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3048795068518781153
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5188988946759295529}
-  m_Mesh: {fileID: 4624864942662182433, guid: aa1df8bdfe3b61943a5cbb2344613612, type: 3}
---- !u!23 &2953124948519071659
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5188988946759295529}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: c0999236ab32ad94fb08c06e6694fa49, type: 2}
-  - {fileID: 2100000, guid: 31e87d42f3ffa2546b1f527e7a0a4b9d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5642053155804464702
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +537,7 @@ GameObject:
   - component: {fileID: 4331659049662495244}
   - component: {fileID: 3106565851231327056}
   - component: {fileID: 8867614115275967989}
+  - component: {fileID: 2973071954569673241}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -574,6 +593,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &2973071954569673241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5642053155804464702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
 --- !u!1 &5835211177665344659
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,8 +617,9 @@ GameObject:
   - component: {fileID: 2177808989587228628}
   - component: {fileID: 6473226240205004202}
   - component: {fileID: 3553181725343472712}
+  - component: {fileID: 3854723922547506882}
   m_Layer: 0
-  m_Name: (Prb)Desk1
+  m_Name: Desk1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -607,6 +639,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2749756394835434391}
+  - {fileID: 4071210435258341262}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2177808989587228628
@@ -769,6 +802,19 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3854723922547506882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5835211177665344659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54faa1c6df0aea4eaa3390b98b464f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartLOD
+  _nextLOD: {fileID: 5835211177665344659, guid: eba40b33cd75dfc4e86e9604170d19f9, type: 3}
 --- !u!1 &7328454165817256385
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +826,7 @@ GameObject:
   - component: {fileID: 4156282729899302724}
   - component: {fileID: 5748173988211879697}
   - component: {fileID: 8415109979942494677}
+  - component: {fileID: 2573961669481328843}
   m_Layer: 0
   m_Name: Leg_8
   m_TagString: Untagged
@@ -837,6 +884,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &2573961669481328843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328454165817256385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
 --- !u!1 &8444249289365801220
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,6 +907,7 @@ GameObject:
   - component: {fileID: 86096266481990576}
   - component: {fileID: 3350599913213588092}
   - component: {fileID: 3914803102328158106}
+  - component: {fileID: 2049897825673026198}
   m_Layer: 0
   m_Name: Leg_7
   m_TagString: Untagged
@@ -905,3 +965,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
+--- !u!114 &2049897825673026198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444249289365801220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327a4a75ac4e054cb3a3c34d4460480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.ChildBreakable
+--- !u!1001 &4608696649950343269
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6607067672067829289}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+      propertyPath: m_Name
+      value: Desk1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+--- !u!4 &4071210435258341262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06ee91921a885e946ba47f834af506b4, type: 3}
+  m_PrefabInstance: {fileID: 4608696649950343269}
+  m_PrefabAsset: {fileID: 0}
