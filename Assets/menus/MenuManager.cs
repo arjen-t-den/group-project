@@ -10,7 +10,6 @@ public class MenuManager : MonoBehaviour
 
     void Start()
     {
-        // Set initial state on load
         ShowMainMenu();
     }
 
@@ -48,7 +47,6 @@ public class MenuManager : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Quit application");
         Application.Quit();
     }
 }
