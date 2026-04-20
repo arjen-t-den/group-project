@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6204602360409528317}
   - component: {fileID: 5001054398865523717}
   - component: {fileID: 3295306998675038068}
+  - component: {fileID: 3874230199356585647}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -129,7 +130,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
   Mass: 2
   IsKinematic: 0
-  Assembly: {fileID: 0}
 --- !u!114 &5001054398865523717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,3 +155,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &3874230199356585647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489112910872988688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable

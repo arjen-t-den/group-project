@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 7165323900245919803}
   - component: {fileID: 7039791841412760850}
   - component: {fileID: 2729377656155438559}
+  - component: {fileID: 2628514676158664497}
   m_Layer: 0
   m_Name: Leg_2
   m_TagString: Untagged
@@ -249,6 +250,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &2628514676158664497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689448797449115496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &6125488725740351401
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +277,7 @@ GameObject:
   - component: {fileID: 6719371641775438564}
   - component: {fileID: 6152577410633335826}
   - component: {fileID: 2078099156793666948}
+  - component: {fileID: 4702105200945207413}
   m_Layer: 0
   m_Name: Leg_1
   m_TagString: Untagged
@@ -403,6 +417,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &4702105200945207413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125488725740351401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &7160262139470418052
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,6 +444,7 @@ GameObject:
   - component: {fileID: 7064472573025101866}
   - component: {fileID: 349650205911128719}
   - component: {fileID: 2885262644236469641}
+  - component: {fileID: 3423042497746020913}
   m_Layer: 0
   m_Name: Leg_3
   m_TagString: Untagged
@@ -557,6 +584,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &3423042497746020913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7160262139470418052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &8120709797046609486
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +673,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9c1d91fdc91213419a7231d36d7d4b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Assembly
-  _name: Assembly
 --- !u!1 &8795409345957404725
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,6 +688,7 @@ GameObject:
   - component: {fileID: 2334117678149035140}
   - component: {fileID: 5066054022116520779}
   - component: {fileID: 2802112899431115397}
+  - component: {fileID: 8600244955805778917}
   m_Layer: 0
   m_Name: Leg_4
   m_TagString: Untagged
@@ -789,6 +828,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &8600244955805778917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8795409345957404725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1001 &146378831416823602
 PrefabInstance:
   m_ObjectHideFlags: 0

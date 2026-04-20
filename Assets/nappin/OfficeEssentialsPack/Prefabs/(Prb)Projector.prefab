@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 8683779917644836235}
   - component: {fileID: 8837850782271663207}
   - component: {fileID: 3224238227324864113}
+  - component: {fileID: 2771317729624081112}
   m_Layer: 0
   m_Name: projector
   m_TagString: Untagged
@@ -174,3 +175,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.38242018, y: 0.16454291, z: 0.32773328}
   m_Center: {x: -0.0016203672, y: 0.08227146, z: 0.0033979192}
+--- !u!114 &2771317729624081112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458478210381461421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable

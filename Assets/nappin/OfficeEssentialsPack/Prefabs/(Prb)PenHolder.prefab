@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 4571191255041767885}
   - component: {fileID: 7704702765773817277}
   - component: {fileID: 5558677657471461002}
+  - component: {fileID: 7781019550183455616}
   m_Layer: 0
   m_Name: penHolder_pen
   m_TagString: Untagged
@@ -175,6 +176,18 @@ CapsuleCollider:
   m_Height: 0.13006644
   m_Direction: 1
   m_Center: {x: -0.0010067899, y: -0.06461925, z: -0.00010077235}
+--- !u!114 &7781019550183455616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291173166972105426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &4314615561703852331
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,6 +200,7 @@ GameObject:
   - component: {fileID: 4244917146373649109}
   - component: {fileID: 113702135756542858}
   - component: {fileID: 4160675182322110632}
+  - component: {fileID: 9085442146984679797}
   m_Layer: 0
   m_Name: penHolder_marker
   m_TagString: Untagged
@@ -291,6 +305,18 @@ CapsuleCollider:
   m_Height: 0.10702929
   m_Direction: 1
   m_Center: {x: -0.000018457687, y: 0.057776466, z: 0.000040029026}
+--- !u!114 &9085442146984679797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314615561703852331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &5610603056074386891
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +329,7 @@ GameObject:
   - component: {fileID: 1662002267798315496}
   - component: {fileID: 5776593862529010565}
   - component: {fileID: 1014840700694782919}
+  - component: {fileID: 8503403121690504786}
   m_Layer: 0
   m_Name: penHolder_pencil
   m_TagString: Untagged
@@ -407,6 +434,18 @@ CapsuleCollider:
   m_Height: 0.1280846
   m_Direction: 1
   m_Center: {x: 0.0000089621635, y: -0.06387642, z: -0.0016146248}
+--- !u!114 &8503403121690504786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5610603056074386891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &7642093248944240756
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +458,7 @@ GameObject:
   - component: {fileID: 4052818560558346014}
   - component: {fileID: 6429394282814052743}
   - component: {fileID: 1824495335605007579}
+  - component: {fileID: 5510787223265405073}
   m_Layer: 0
   m_Name: penHolder_body
   m_TagString: Untagged
@@ -519,6 +559,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.102402866, y: 0.10419566, z: 0.10240724}
   m_Center: {x: 0.000000834465, y: 0.05209783, z: 0.000011790544}
+--- !u!114 &5510787223265405073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7642093248944240756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &8777283581138067823
 GameObject:
   m_ObjectHideFlags: 0
