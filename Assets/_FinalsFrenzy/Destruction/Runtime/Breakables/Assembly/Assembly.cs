@@ -102,7 +102,6 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             }
 
             RootPart = bestPart;
-            RootPart.GetComponent<MeshRenderer>().material.color = Color.red;
         }
 
         public void Initialize(List<Part> parts)
