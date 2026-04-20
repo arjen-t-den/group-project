@@ -7,7 +7,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
     /// Connects nearby parts on start.
     /// </summary>
     [RequireComponent(typeof(Part))]
-    public class JoinSurfaces : MonoBehaviour
+    public class JoinSurfacesBox : MonoBehaviour
     {
         private Part _part;
         private readonly HashSet<Part> _touchingParts = new();
