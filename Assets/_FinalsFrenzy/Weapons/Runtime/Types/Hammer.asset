@@ -9,6 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a0a5b3fe596f3c479bf6bcbe3ab5609, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b062d276c95b5445b07fcb92dd30ea2, type: 3}
   m_Name: Hammer
-  m_EditorClassIdentifier: Group8.FinalsFrenzy.Weapons::Group8.FinalsFrenzy.Weapons.Hammer
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Weapons::Group8.FinalsFrenzy.Weapons.ProjectileWeapon
+  _projectile: {fileID: 992420208304550217, guid: 08b90afdd0316354782b0c7b90a3ac9b, type: 3}
+  _strength: 10

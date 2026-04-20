@@ -7,13 +7,13 @@ namespace Group8.FinalsFrenzy.Weapons
     /// <summary>
     /// Simple weapon that breaks the object in front of it.
     /// </summary>
-    [CreateAssetMenu(menuName = "Finals Frenzy/Weapons/Hammer")]
-    public class Hammer : Weapon
+    [CreateAssetMenu(menuName = "Finals Frenzy/Weapons/Hitscan")]
+    public class HitscanWeapon : Weapon
     {
         [SerializeField]
         private float _maxDistance = 3f;
         
-        public override string itemLabel => "Hammer";
+        public override string itemLabel => "Hitscan";
         /// <summary>
         /// Break the breakable object ahead, if there is one within range.
         /// </summary>
