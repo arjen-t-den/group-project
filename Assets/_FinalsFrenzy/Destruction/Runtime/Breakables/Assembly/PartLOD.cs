@@ -8,18 +8,22 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
     public class PartLOD : Breakable
     {
         [SerializeField]
-        private GameObject _thisLOD;
-
-        [SerializeField]
         private GameObject _nextLOD;
 
+        /// <inheritdoc/>
+        /// <summary>
+        /// Swaps the current LOD out for the next LOD and breaks that.
+        /// </summary>
         public override void Break(Vector3 point, Vector3 direction)
         {
             base.Break(point, direction);
 
             // Swap to higher LOD
-            _thisLOD.SetActive(false);
-            _nextLOD.SetActive(true);
+            var nextLOD = Instantiate(_nextLOD, transform.position, transform.rotation);
+            nextLOD.name = _nextLOD.name;
+
+            gameObject.SetActive(false);
+            Destroy(gameObject);
 
             // Look for even higher LODs
             var colliders = Physics.OverlapSphere(point, 0.001f);
