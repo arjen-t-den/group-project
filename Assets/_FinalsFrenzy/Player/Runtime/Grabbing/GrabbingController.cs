@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,9 @@ namespace Group8.FinalsFrenzy.Player
     [RequireComponent(typeof(ConfigurableJoint))]
     public class GrabbingController : MonoBehaviour
     {
+        public event Action OnGrab;
+        public event Action OnRelease;
+
         private readonly float _maxDistance = 3f;
 
         [SerializeField]
@@ -44,11 +48,17 @@ namespace Group8.FinalsFrenzy.Player
             if (!_rigidbody) return;
 
             _joint.connectedBody = _rigidbody;
+            OnGrab?.Invoke();
         }
 
         private void Release(InputAction.CallbackContext _)
         {
-            if (_grabbable) _grabbable.Release();
+            if (_grabbable)
+            {
+                _grabbable.Release();
+                _grabbable = null;
+                OnRelease?.Invoke();
+            }
             _joint.connectedBody = null;
         }
     }
