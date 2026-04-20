@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 425299604936824240}
   - component: {fileID: 4782683538059999507}
   - component: {fileID: 4566773447404604440}
+  - component: {fileID: 92437773516158077}
   m_Layer: 0
   m_Name: shelves3
   m_TagString: Untagged
@@ -307,3 +308,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.51393276, y: 3.09029, z: 2.6122813}
   m_Center: {x: 0.000000029802322, y: 1.5451448, z: 0.0000019669533}
+--- !u!114 &92437773516158077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551373811888269153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable

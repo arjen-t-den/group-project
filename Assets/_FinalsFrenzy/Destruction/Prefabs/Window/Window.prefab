@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1489112910872988688
+--- !u!1 &2405445696811159437
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,52 +8,82 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8193027504715079163}
-  - component: {fileID: 2505009693893207439}
-  - component: {fileID: 714912744889734745}
-  - component: {fileID: 3627896950095674519}
-  - component: {fileID: 6204602360409528317}
-  - component: {fileID: 5001054398865523717}
-  - component: {fileID: 3295306998675038068}
-  - component: {fileID: 3874230199356585647}
-  - component: {fileID: 1620592782316257939}
+  - component: {fileID: 1007307540846826822}
   m_Layer: 0
-  m_Name: Top
+  m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8193027504715079163
+--- !u!4 &1007307540846826822
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
+  m_GameObject: {fileID: 2405445696811159437}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4, y: 0, z: 0.70000005}
-  m_LocalScale: {x: 0.4, y: 0.1, z: 0.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7115698934897993216}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2505009693893207439
+--- !u!1 &4076288281191695776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7115698934897993216}
+  - component: {fileID: 4074280319182678825}
+  - component: {fileID: 5066248344847423656}
+  - component: {fileID: 7236221977920516299}
+  - component: {fileID: 890674376306710875}
+  - component: {fileID: 946452806518313280}
+  - component: {fileID: 3152562533159379938}
+  m_Layer: 0
+  m_Name: Pane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7115698934897993216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4076288281191695776}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1007307540846826822}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4074280319182678825
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
+  m_GameObject: {fileID: 4076288281191695776}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &714912744889734745
+--- !u!23 &5066248344847423656
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
+  m_GameObject: {fileID: 4076288281191695776}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -72,7 +102,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b4d7bc791f57452479df6807f0caca66, type: 2}
+  - {fileID: 2100000, guid: 6c0aaaba879c83944839dec15755926c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,13 +126,13 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3627896950095674519
+--- !u!65 &7236221977920516299
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
+  m_GameObject: {fileID: 4076288281191695776}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -117,66 +147,42 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6204602360409528317
+--- !u!114 &890674376306710875
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
+  m_GameObject: {fileID: 4076288281191695776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbd690789dd31544493cab51cfc635d6, type: 3}
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.Part
-  Mass: 2
-  IsKinematic: 0
---- !u!114 &5001054398865523717
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.PrefabSwitchingBreakable
+  _brokenPrefab: {fileID: 2405445696811159437, guid: 827a5de573e31644283b4caea99ff4cc, type: 3}
+--- !u!114 &946452806518313280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7158d73d3c9954946b0aa3571e8a6c86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.JoinSurfaces
---- !u!114 &3295306998675038068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
+  m_GameObject: {fileID: 4076288281191695776}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakSoundPlayer
-  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
---- !u!114 &3874230199356585647
+  _audioResource: {fileID: 6418180475301049370, guid: 54d7caa8c12dd3e499e2a85a52c3d095, type: 2}
+--- !u!114 &3152562533159379938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
+  m_GameObject: {fileID: 4076288281191695776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Script: {fileID: 11500000, guid: 29854fb6593db9347881296749743375, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
---- !u!114 &1620592782316257939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489112910872988688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
+  _thresholdImpulse: 20

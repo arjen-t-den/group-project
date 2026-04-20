@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4169108964723354166}
   - component: {fileID: 5095022492126458922}
   - component: {fileID: 2962648444215432020}
+  - component: {fileID: 8146593893271185799}
   m_Layer: 0
   m_Name: Top_2
   m_TagString: Untagged
@@ -168,6 +169,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &8146593893271185799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195261100935381975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29854fb6593db9347881296749743375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
+  _thresholdImpulse: 2
 --- !u!1 &3068856579087357075
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +197,7 @@ GameObject:
   - component: {fileID: 803120266950756022}
   - component: {fileID: 6595215362325000808}
   - component: {fileID: 8494349379872287214}
+  - component: {fileID: 3547113523322322515}
   m_Layer: 0
   m_Name: Top_3
   m_TagString: Untagged
@@ -336,6 +351,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &3547113523322322515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068856579087357075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29854fb6593db9347881296749743375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
+  _thresholdImpulse: 2
 --- !u!1 &4859003124484029342
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +414,7 @@ GameObject:
   - component: {fileID: 7331360565563880758}
   - component: {fileID: 3906045716771660212}
   - component: {fileID: 7311563123444105164}
+  - component: {fileID: 26488994966944675}
   m_Layer: 0
   m_Name: Top_1
   m_TagString: Untagged
@@ -539,6 +568,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &26488994966944675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947809917338685234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29854fb6593db9347881296749743375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
+  _thresholdImpulse: 2
 --- !u!1 &8544187888113954193
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +596,7 @@ GameObject:
   - component: {fileID: 7851970960024549263}
   - component: {fileID: 3995172374253286715}
   - component: {fileID: 5444742155034787762}
+  - component: {fileID: 4217659534586618439}
   m_Layer: 0
   m_Name: Top_4
   m_TagString: Untagged
@@ -707,3 +750,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
   _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &4217659534586618439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8544187888113954193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29854fb6593db9347881296749743375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
+  _thresholdImpulse: 2
