@@ -12,11 +12,6 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
     {
         #region Properties
         /// <summary>
-        /// The name of the original intact assembly.
-        /// </summary>
-        public string Name { get; private set; }
-
-        /// <summary>
         /// The rigidbody component that represents the assembly's physics body.
         /// </summary>
         public Rigidbody Rigidbody { get; private set; }
@@ -67,7 +62,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         {
             if (Parts.Count > 0) return;
             var parts = FindObjectsByType<Part>(FindObjectsSortMode.None).ToList();
-            Initialize(parts, name);
+            Initialize(parts);
         }
 
         /// <returns>True if the assembly has a valid root part.</returns>
@@ -85,6 +80,8 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// </remarks>
         public void SelectRootPart()
         {
+            if (HasRootPart()) return;
+
             Part bestPart = null;
             var bestMass = 0f;
 
@@ -108,10 +105,8 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             RootPart.GetComponent<MeshRenderer>().material.color = Color.red;
         }
 
-        public void Initialize(List<Part> parts, string name)
+        public void Initialize(List<Part> parts)
         {
-            Name = name;
-
             foreach (var part in parts)
                 AddPart(part);
 

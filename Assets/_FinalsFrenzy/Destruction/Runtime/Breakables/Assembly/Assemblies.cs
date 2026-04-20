@@ -43,9 +43,9 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// <returns>The created assembly.</returns>
         public static Assembly CreateAssembly(List<Part> parts, string name)
         {
-            var gameObject = new GameObject(name + " (Broken)");
+            var gameObject = new GameObject(name);
             var assembly = gameObject.AddComponent<Assembly>();
-            assembly.Initialize(parts, name);
+            assembly.Initialize(parts);
             return assembly;
         }
 
@@ -65,17 +65,13 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         {
             if (!_rebuildingAssemblies.Add(assembly)) return;
 
-            if (!assembly.HasRootPart())
+            if (assembly.IsEmpty())
             {
-                if (assembly.IsEmpty())
-                {
-                    DestroyAssembly(assembly);
-                    return;
-                }
-
-                assembly.SelectRootPart();
+                DestroyAssembly(assembly);
+                return;
             }
 
+            assembly.SelectRootPart();
             var rootPart = assembly.RootPart;
             var parts = assembly.Parts;
 
@@ -101,7 +97,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             // Create new assemblies for each group.
             foreach (var group in groups)
             {
-                var newAssembly = CreateAssembly(group, assembly.Name);
+                var newAssembly = CreateAssembly(group, assembly.name);
 
                 newAssembly.LinearVelocity = linearVelocity;
                 newAssembly.AngularVelocity = angularVelocity;

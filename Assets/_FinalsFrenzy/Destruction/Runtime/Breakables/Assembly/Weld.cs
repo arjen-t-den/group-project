@@ -1,5 +1,3 @@
-using UnityEngine;
-
 namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 {
     /// <summary>
@@ -36,8 +34,6 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// </summary>
         public void Break()
         {
-            var assembly = Part0.Assembly ?? Part1.Assembly;
-
             if (Part0) Part0.Welds.Remove(this);
             if (Part1) Part1.Welds.Remove(this);
 
