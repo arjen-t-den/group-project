@@ -112,6 +112,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 
             RecalculateMass();
             SelectRootPart();
+            Rigidbody.WakeUp();
         }
 
         public void RecalculateMass()
