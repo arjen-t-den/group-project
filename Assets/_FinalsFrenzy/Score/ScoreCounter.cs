@@ -2,6 +2,7 @@ using UnityEngine;
 using Group8.FinalsFrenzy.Destruction.Breakables;
 using System.Diagnostics;
 using System.Linq;
+using TMPro;
 
 namespace Group8.FinalsFrenzy.Score
 {
@@ -10,6 +11,9 @@ namespace Group8.FinalsFrenzy.Score
     /// </summary>
     public class ScoreCounter : MonoBehaviour
     {
+        [SerializeField]
+        private TMP_Text _scoreText;
+
         public static ScoreCounter Instance {get; private set;}
         /// <summary>
         /// long which stores the score value.
@@ -95,7 +99,7 @@ namespace Group8.FinalsFrenzy.Score
             }
             PlayerPrefs.SetInt("Score", (int)score);
             UnityEngine.Debug.Log("Score: " + score);
-            
+            _scoreText.text = "Score: " + score.ToString();
         }
 
         public void subScore(int value)

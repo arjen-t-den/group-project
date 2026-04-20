@@ -52,6 +52,7 @@ GameObject:
   - component: {fileID: 561414790455943101}
   - component: {fileID: 1516504481199902280}
   - component: {fileID: 7314278480864663614}
+  - component: {fileID: 3311297599304732909}
   m_Layer: 0
   m_Name: Pane
   m_TagString: Untagged
@@ -230,6 +231,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
   _thresholdImpulse: 5
+--- !u!114 &3311297599304732909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4076288281191695776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4837995143850976164
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,6 +261,7 @@ GameObject:
   - component: {fileID: 6522046238547073232}
   - component: {fileID: 3450305002024448353}
   - component: {fileID: 1908020545132543812}
+  - component: {fileID: 1159577433662725259}
   m_Layer: 0
   m_Name: Pane_1
   m_TagString: Untagged
@@ -425,6 +440,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
   _thresholdImpulse: 5
+--- !u!114 &1159577433662725259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4837995143850976164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6403857214747317130
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,6 +470,7 @@ GameObject:
   - component: {fileID: 393888180207027344}
   - component: {fileID: 6396470516245694155}
   - component: {fileID: 5823000443965263567}
+  - component: {fileID: 3699621279242813910}
   m_Layer: 0
   m_Name: Pane_3
   m_TagString: Untagged
@@ -620,6 +649,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
   _thresholdImpulse: 5
+--- !u!114 &3699621279242813910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403857214747317130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6736204469225637229
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +679,7 @@ GameObject:
   - component: {fileID: 8791706573317302598}
   - component: {fileID: 2598284250634889221}
   - component: {fileID: 5323781851348600649}
+  - component: {fileID: 3657833411671850070}
   m_Layer: 0
   m_Name: Pane_2
   m_TagString: Untagged
@@ -815,3 +858,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.BreakOnCollision
   _thresholdImpulse: 5
+--- !u!114 &3657833411671850070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6736204469225637229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}

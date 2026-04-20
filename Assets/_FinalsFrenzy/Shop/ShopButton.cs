@@ -4,6 +4,7 @@ using UnityEngine;
 using Group8.FinalsFrenzy.Score;
 using Group8.FinalsFrenzy.Button;
 using Group8.FinalsFrenzy.Weapons;
+using TMPro;
 
 
 namespace Group8.FinalsFrenzy.Shop
@@ -12,6 +13,9 @@ namespace Group8.FinalsFrenzy.Shop
     [DisallowMultipleComponent]
     public class shopButton : MonoBehaviour
     {
+        [SerializeField]
+        private TMP_Text _weaponText;
+
         [SerializeField] private ShopButtonData shopButtonData;
         [SerializeField] private Weapon weapon;
         
@@ -56,6 +60,7 @@ namespace Group8.FinalsFrenzy.Shop
         {
             WeaponController.Instance.Weapon = weapon;
              UnityEngine.Debug.Log("weapon equiped");
+            _weaponText.text = weapon.name;
         }
 
         void buttonPressed()

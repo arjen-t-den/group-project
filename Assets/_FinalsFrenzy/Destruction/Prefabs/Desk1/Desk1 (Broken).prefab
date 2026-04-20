@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 1621626563755143220}
   - component: {fileID: 3700385020893756201}
   - component: {fileID: 3869212959653692308}
+  - component: {fileID: 3707055321815886405}
   m_Layer: 0
   m_Name: Top_cell.006_cell.005
   m_TagString: Untagged
@@ -277,6 +278,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &3707055321815886405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517619574463795207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &703137458861858266
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +308,7 @@ GameObject:
   - component: {fileID: 3179365045819492524}
   - component: {fileID: 6709714461028214151}
   - component: {fileID: 2888895377673237541}
+  - component: {fileID: 7167156236880271395}
   m_Layer: 0
   m_Name: Top_cell.010_cell.004_cell.002_cell.001
   m_TagString: Untagged
@@ -458,6 +473,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7167156236880271395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703137458861858266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &755111586929034089
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +503,7 @@ GameObject:
   - component: {fileID: 6238224364293781302}
   - component: {fileID: 7196942337840857300}
   - component: {fileID: 859575154994256158}
+  - component: {fileID: 7562828858169948826}
   m_Layer: 0
   m_Name: Top_cell.002_cell.002_cell
   m_TagString: Untagged
@@ -639,6 +668,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7562828858169948826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755111586929034089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &778140163353597737
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +698,7 @@ GameObject:
   - component: {fileID: 7072312997350952083}
   - component: {fileID: 1722267005666966022}
   - component: {fileID: 9038009321230173966}
+  - component: {fileID: 7613558006177983543}
   m_Layer: 0
   m_Name: Top_cell.008
   m_TagString: Untagged
@@ -820,6 +863,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7613558006177983543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778140163353597737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &921088453032296986
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +893,7 @@ GameObject:
   - component: {fileID: 2261234006541126110}
   - component: {fileID: 4034111971087150692}
   - component: {fileID: 8942256301855829659}
+  - component: {fileID: 4990601579982764977}
   m_Layer: 0
   m_Name: Top_cell.002_cell.001_cell.001
   m_TagString: Untagged
@@ -1001,6 +1058,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &4990601579982764977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921088453032296986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &1014315312791490604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,6 +1088,7 @@ GameObject:
   - component: {fileID: 8106126720339188918}
   - component: {fileID: 6641612705516891267}
   - component: {fileID: 4157199426550422138}
+  - component: {fileID: 1928104080418732941}
   m_Layer: 0
   m_Name: Top_cell.006_cell
   m_TagString: Untagged
@@ -1182,6 +1253,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &1928104080418732941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014315312791490604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &1051705094670554979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,6 +1283,7 @@ GameObject:
   - component: {fileID: 1311491798087336134}
   - component: {fileID: 5957289610114186741}
   - component: {fileID: 6217027893973432908}
+  - component: {fileID: 3431542003469939893}
   m_Layer: 0
   m_Name: Top_cell.002_cell.005
   m_TagString: Untagged
@@ -1363,6 +1448,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &3431542003469939893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051705094670554979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &1479718989431466894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,6 +1478,7 @@ GameObject:
   - component: {fileID: 7962166243765536058}
   - component: {fileID: 6474536363835241829}
   - component: {fileID: 789903427328973724}
+  - component: {fileID: 5785470665279962240}
   m_Layer: 0
   m_Name: Top_cell_cell
   m_TagString: Untagged
@@ -1544,6 +1643,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5785470665279962240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479718989431466894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &1508674513511800327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,6 +1673,7 @@ GameObject:
   - component: {fileID: 6223344015540044553}
   - component: {fileID: 1977611922265421704}
   - component: {fileID: 7464046194341003615}
+  - component: {fileID: 7731398609401070160}
   m_Layer: 0
   m_Name: Top_cell.010_cell
   m_TagString: Untagged
@@ -1725,6 +1838,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7731398609401070160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508674513511800327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &1513987448038644867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,6 +1868,7 @@ GameObject:
   - component: {fileID: 8204845121251553334}
   - component: {fileID: 6469190168431589503}
   - component: {fileID: 2193130158607977929}
+  - component: {fileID: 8297652327404346482}
   m_Layer: 0
   m_Name: Top_cell.001_cell.001
   m_TagString: Untagged
@@ -1906,6 +2033,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &8297652327404346482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513987448038644867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &1882550057694639252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,6 +2159,7 @@ GameObject:
   - component: {fileID: 5627397767048820978}
   - component: {fileID: 4846894672561866597}
   - component: {fileID: 366108850023582294}
+  - component: {fileID: 7102049524325251970}
   m_Layer: 0
   m_Name: Top_cell.010_cell.002_cell.001
   m_TagString: Untagged
@@ -2183,6 +2324,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7102049524325251970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2176038711766072759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2184302609217688715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,6 +2354,7 @@ GameObject:
   - component: {fileID: 8880330399723955876}
   - component: {fileID: 1587271297073848298}
   - component: {fileID: 8532399251815225576}
+  - component: {fileID: 7508900490471160526}
   m_Layer: 0
   m_Name: Top_cell.001_cell.004
   m_TagString: Untagged
@@ -2364,6 +2519,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7508900490471160526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2184302609217688715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2191120492797411458
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2549,7 @@ GameObject:
   - component: {fileID: 1061280062106390698}
   - component: {fileID: 5332306817109909234}
   - component: {fileID: 1365202939891979589}
+  - component: {fileID: 1210356230390708323}
   m_Layer: 0
   m_Name: Top_cell.009_cell.003
   m_TagString: Untagged
@@ -2545,6 +2714,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &1210356230390708323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2191120492797411458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2271313499931631129
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,6 +2744,7 @@ GameObject:
   - component: {fileID: 502280676420279074}
   - component: {fileID: 3470076721746692859}
   - component: {fileID: 7545989891123358861}
+  - component: {fileID: 2808809261559642752}
   m_Layer: 0
   m_Name: Top_cell.002_cell.004_cell.001
   m_TagString: Untagged
@@ -2726,6 +2909,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &2808809261559642752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271313499931631129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2278201421620897017
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,6 +3033,7 @@ GameObject:
   - component: {fileID: 7706166066351576841}
   - component: {fileID: 3063484336897058082}
   - component: {fileID: 3258824477330737487}
+  - component: {fileID: 5010672085826497049}
   m_Layer: 0
   m_Name: Top_cell.006_cell.002
   m_TagString: Untagged
@@ -3001,6 +3198,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5010672085826497049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2290328551953251993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2551132547527207734
 GameObject:
   m_ObjectHideFlags: 0
@@ -3018,6 +3228,7 @@ GameObject:
   - component: {fileID: 4542234895841768965}
   - component: {fileID: 6023741486725438467}
   - component: {fileID: 7030832504357856438}
+  - component: {fileID: 3197466396533788863}
   m_Layer: 0
   m_Name: Top_cell.003
   m_TagString: Untagged
@@ -3182,6 +3393,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &3197466396533788863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551132547527207734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2758832297197818530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,6 +3423,7 @@ GameObject:
   - component: {fileID: 6242579118381174673}
   - component: {fileID: 7160554698311136204}
   - component: {fileID: 665392405573605204}
+  - component: {fileID: 2279066370033328920}
   m_Layer: 0
   m_Name: Top_cell.002_cell.001_cell.002
   m_TagString: Untagged
@@ -3363,6 +3588,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &2279066370033328920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2758832297197818530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2919956421392099723
 GameObject:
   m_ObjectHideFlags: 0
@@ -3380,6 +3618,7 @@ GameObject:
   - component: {fileID: 3075225909453488160}
   - component: {fileID: 5328064808522757898}
   - component: {fileID: 995169141660401528}
+  - component: {fileID: 2295296079344491946}
   m_Layer: 0
   m_Name: Top_cell.010_cell.001_cell_cell.001
   m_TagString: Untagged
@@ -3544,6 +3783,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &2295296079344491946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919956421392099723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &2935476749224517692
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,6 +3813,7 @@ GameObject:
   - component: {fileID: 4249659250861025091}
   - component: {fileID: 2602243632135594153}
   - component: {fileID: 2813465265446667222}
+  - component: {fileID: 904046347425508103}
   m_Layer: 0
   m_Name: Top_cell.005_cell.003_cell.001
   m_TagString: Untagged
@@ -3725,6 +3978,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &904046347425508103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2935476749224517692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3048033912026512827
 GameObject:
   m_ObjectHideFlags: 0
@@ -3742,6 +4008,7 @@ GameObject:
   - component: {fileID: 6254103601666933452}
   - component: {fileID: 700346346934150081}
   - component: {fileID: 3700365723394556566}
+  - component: {fileID: 7103535751502394736}
   m_Layer: 0
   m_Name: Top_cell.010_cell.001_cell.001_cell
   m_TagString: Untagged
@@ -3906,6 +4173,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7103535751502394736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3048033912026512827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3122246904825345582
 GameObject:
   m_ObjectHideFlags: 0
@@ -3923,6 +4203,7 @@ GameObject:
   - component: {fileID: 9157064874708461704}
   - component: {fileID: 353221903683585093}
   - component: {fileID: 2625509757281629334}
+  - component: {fileID: 656305893510591898}
   m_Layer: 0
   m_Name: Top_cell.002_cell.001_cell_cell
   m_TagString: Untagged
@@ -4087,6 +4368,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &656305893510591898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3122246904825345582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3345646540903032211
 GameObject:
   m_ObjectHideFlags: 0
@@ -4104,6 +4398,7 @@ GameObject:
   - component: {fileID: 2832376754556821645}
   - component: {fileID: 7684305806590108404}
   - component: {fileID: 3411888982512042932}
+  - component: {fileID: 8897474943044560343}
   m_Layer: 0
   m_Name: Top_cell.010_cell.003_cell
   m_TagString: Untagged
@@ -4268,6 +4563,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &8897474943044560343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3345646540903032211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3354623045909826575
 GameObject:
   m_ObjectHideFlags: 0
@@ -4285,6 +4593,7 @@ GameObject:
   - component: {fileID: 1453612737290738542}
   - component: {fileID: 5782838698013313948}
   - component: {fileID: 1215989745111711361}
+  - component: {fileID: 7016123283734538113}
   m_Layer: 0
   m_Name: Top_cell.010_cell.004_cell.002_cell
   m_TagString: Untagged
@@ -4449,6 +4758,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7016123283734538113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3354623045909826575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3399077262265483501
 GameObject:
   m_ObjectHideFlags: 0
@@ -4466,6 +4788,7 @@ GameObject:
   - component: {fileID: 4274425178349455821}
   - component: {fileID: 3990637873044085637}
   - component: {fileID: 3884451090607565147}
+  - component: {fileID: 7686037043974663383}
   m_Layer: 0
   m_Name: Top_cell.002_cell.004_cell_cell.001
   m_TagString: Untagged
@@ -4630,6 +4953,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7686037043974663383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3399077262265483501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3448455184161568994
 GameObject:
   m_ObjectHideFlags: 0
@@ -4647,6 +4983,7 @@ GameObject:
   - component: {fileID: 8438702159061103765}
   - component: {fileID: 4997277154538659228}
   - component: {fileID: 571609811583175452}
+  - component: {fileID: 2368213976290057049}
   m_Layer: 0
   m_Name: Top_cell.005_cell.002_cell.001_cell.002
   m_TagString: Untagged
@@ -4811,6 +5148,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &2368213976290057049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3448455184161568994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3708586870357908740
 GameObject:
   m_ObjectHideFlags: 0
@@ -4828,6 +5178,7 @@ GameObject:
   - component: {fileID: 9044883866994582024}
   - component: {fileID: 7053545246299040316}
   - component: {fileID: 4394868637101157510}
+  - component: {fileID: 3187816191941215080}
   m_Layer: 0
   m_Name: Top_cell.009_cell.002
   m_TagString: Untagged
@@ -4992,6 +5343,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &3187816191941215080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3708586870357908740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3781337622146112970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5009,6 +5373,7 @@ GameObject:
   - component: {fileID: 7523385685982172361}
   - component: {fileID: 7411477388459040386}
   - component: {fileID: 1775145895173455781}
+  - component: {fileID: 109100005358081840}
   m_Layer: 0
   m_Name: Top_cell_cell.004
   m_TagString: Untagged
@@ -5173,6 +5538,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &109100005358081840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3781337622146112970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &3792811397539655252
 GameObject:
   m_ObjectHideFlags: 0
@@ -5225,6 +5603,7 @@ GameObject:
   - component: {fileID: 7054890350594815281}
   - component: {fileID: 8520844881347963906}
   - component: {fileID: 158618411609309605}
+  - component: {fileID: 5278523591429531766}
   m_Layer: 0
   m_Name: Top_cell.009_cell.001
   m_TagString: Untagged
@@ -5389,6 +5768,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5278523591429531766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916499404668110662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4015076905020335458
 GameObject:
   m_ObjectHideFlags: 0
@@ -5406,6 +5798,7 @@ GameObject:
   - component: {fileID: 3847500789722664857}
   - component: {fileID: 3963717609696622997}
   - component: {fileID: 7164186769709676902}
+  - component: {fileID: 576010035673099543}
   m_Layer: 0
   m_Name: Top_cell.002_cell.001_cell_cell.001
   m_TagString: Untagged
@@ -5570,6 +5963,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &576010035673099543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015076905020335458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4059246008110081001
 GameObject:
   m_ObjectHideFlags: 0
@@ -5683,6 +6089,7 @@ GameObject:
   - component: {fileID: 6580256936679779774}
   - component: {fileID: 4048933292114827706}
   - component: {fileID: 4471191545216660496}
+  - component: {fileID: 4979378039254511030}
   m_Layer: 0
   m_Name: Top_cell.010_cell.003_cell.001
   m_TagString: Untagged
@@ -5847,6 +6254,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &4979378039254511030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061851024359460586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4093994376267010881
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,6 +6284,7 @@ GameObject:
   - component: {fileID: 7981883535048967150}
   - component: {fileID: 56218372719997270}
   - component: {fileID: 1462522540539828780}
+  - component: {fileID: 1088664830446363986}
   m_Layer: 0
   m_Name: Top_cell.005_cell.003_cell.002_cell.002
   m_TagString: Untagged
@@ -6028,6 +6449,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &1088664830446363986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093994376267010881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4137190790674668051
 GameObject:
   m_ObjectHideFlags: 0
@@ -6045,6 +6479,7 @@ GameObject:
   - component: {fileID: 1310268335608206844}
   - component: {fileID: 7648976864166084805}
   - component: {fileID: 6092007304913128855}
+  - component: {fileID: 8280595079342542788}
   m_Layer: 0
   m_Name: Top_cell.001_cell.005
   m_TagString: Untagged
@@ -6209,6 +6644,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &8280595079342542788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4137190790674668051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4164960149526651586
 GameObject:
   m_ObjectHideFlags: 0
@@ -6322,6 +6770,7 @@ GameObject:
   - component: {fileID: 5304791592124589484}
   - component: {fileID: 1862611493166589545}
   - component: {fileID: 4047416093049129036}
+  - component: {fileID: 3501898367436547798}
   m_Layer: 0
   m_Name: Top_cell.009_cell
   m_TagString: Untagged
@@ -6486,6 +6935,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &3501898367436547798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4174776102811641260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4298675151612360518
 GameObject:
   m_ObjectHideFlags: 0
@@ -6503,6 +6965,7 @@ GameObject:
   - component: {fileID: 2988138438482171165}
   - component: {fileID: 6707222173565244305}
   - component: {fileID: 4322737336257964860}
+  - component: {fileID: 5211296459697128254}
   m_Layer: 0
   m_Name: Top_cell.002_cell.002_cell.002
   m_TagString: Untagged
@@ -6667,6 +7130,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5211296459697128254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4298675151612360518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4467209689615094123
 GameObject:
   m_ObjectHideFlags: 0
@@ -6684,6 +7160,7 @@ GameObject:
   - component: {fileID: 2324234466504990200}
   - component: {fileID: 6959121243370464029}
   - component: {fileID: 24254593184550068}
+  - component: {fileID: 1099118780477252514}
   m_Layer: 0
   m_Name: Top_cell.002_cell.001_cell_cell.002
   m_TagString: Untagged
@@ -6848,6 +7325,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &1099118780477252514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467209689615094123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4485879391830454070
 GameObject:
   m_ObjectHideFlags: 0
@@ -6865,6 +7355,7 @@ GameObject:
   - component: {fileID: 4427850383469850606}
   - component: {fileID: 5655542957316630655}
   - component: {fileID: 3213835326135358647}
+  - component: {fileID: 8978862360331498041}
   m_Layer: 0
   m_Name: Top_cell.001_cell.002
   m_TagString: Untagged
@@ -7029,6 +7520,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &8978862360331498041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4485879391830454070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &4728761818213439411
 GameObject:
   m_ObjectHideFlags: 0
@@ -7232,6 +7736,7 @@ GameObject:
   - component: {fileID: 5388720353150602937}
   - component: {fileID: 5828666166962341470}
   - component: {fileID: 1980980470057462583}
+  - component: {fileID: 5216688685412027697}
   m_Layer: 0
   m_Name: Top_cell.005_cell.003_cell.002_cell
   m_TagString: Untagged
@@ -7396,6 +7901,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5216688685412027697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012632980660451393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &5069012390327253170
 GameObject:
   m_ObjectHideFlags: 0
@@ -7413,6 +7931,7 @@ GameObject:
   - component: {fileID: 8091461747840434158}
   - component: {fileID: 2669267603607100233}
   - component: {fileID: 3031850933755428806}
+  - component: {fileID: 7914515407425043583}
   m_Layer: 0
   m_Name: Top_cell.002_cell.002_cell.001
   m_TagString: Untagged
@@ -7577,6 +8096,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7914515407425043583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5069012390327253170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &5155545535567137589
 GameObject:
   m_ObjectHideFlags: 0
@@ -7594,6 +8126,7 @@ GameObject:
   - component: {fileID: 307963764947149307}
   - component: {fileID: 3255472543522484075}
   - component: {fileID: 5045433855379359193}
+  - component: {fileID: 4975445906591056470}
   m_Layer: 0
   m_Name: Top_cell.010_cell.002_cell.002
   m_TagString: Untagged
@@ -7758,6 +8291,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &4975445906591056470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5155545535567137589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &5167690039744510864
 GameObject:
   m_ObjectHideFlags: 0
@@ -7871,6 +8417,7 @@ GameObject:
   - component: {fileID: 2086434051348274476}
   - component: {fileID: 5064781248469678071}
   - component: {fileID: 8639833779574632254}
+  - component: {fileID: 5629116120231134518}
   m_Layer: 0
   m_Name: Top_cell.005_cell.002_cell.001_cell.001
   m_TagString: Untagged
@@ -8035,6 +8582,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5629116120231134518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5168436206281795809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &5366499430811178097
 GameObject:
   m_ObjectHideFlags: 0
@@ -8052,6 +8612,7 @@ GameObject:
   - component: {fileID: 7064958496765611397}
   - component: {fileID: 8645157951315947378}
   - component: {fileID: 379867917381702093}
+  - component: {fileID: 3453310968187183169}
   m_Layer: 0
   m_Name: Top_cell.006_cell.004
   m_TagString: Untagged
@@ -8216,6 +8777,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &3453310968187183169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5366499430811178097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &5520060937726598072
 GameObject:
   m_ObjectHideFlags: 0
@@ -8233,6 +8807,7 @@ GameObject:
   - component: {fileID: 915047694722326514}
   - component: {fileID: 5239100181821825019}
   - component: {fileID: 4311211371204015499}
+  - component: {fileID: 5334477774465165647}
   m_Layer: 0
   m_Name: Top_cell.010_cell.003_cell.002
   m_TagString: Untagged
@@ -8397,6 +8972,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5334477774465165647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520060937726598072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &5613803080569244607
 GameObject:
   m_ObjectHideFlags: 0
@@ -8414,6 +9002,7 @@ GameObject:
   - component: {fileID: 1377422099984837269}
   - component: {fileID: 8561330390755098616}
   - component: {fileID: 2363666255411756866}
+  - component: {fileID: 5652257183333754828}
   m_Layer: 0
   m_Name: Top_cell.002_cell.004_cell_cell.002
   m_TagString: Untagged
@@ -8578,6 +9167,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5652257183333754828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5613803080569244607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &5835211177665344659
 GameObject:
   m_ObjectHideFlags: 0
@@ -8805,6 +9407,7 @@ GameObject:
   - component: {fileID: 7754855250919368223}
   - component: {fileID: 8113270099137137329}
   - component: {fileID: 1688457808658542511}
+  - component: {fileID: 1676375209338271960}
   m_Layer: 0
   m_Name: Top_cell_cell.001
   m_TagString: Untagged
@@ -8969,6 +9572,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &1676375209338271960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6026577705956484617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6112692831689342967
 GameObject:
   m_ObjectHideFlags: 0
@@ -8986,6 +9602,7 @@ GameObject:
   - component: {fileID: 5726982704732181279}
   - component: {fileID: 3160195704199279660}
   - component: {fileID: 986642629352856556}
+  - component: {fileID: 5873983687539567374}
   m_Layer: 0
   m_Name: Top_cell.005_cell.004
   m_TagString: Untagged
@@ -9150,6 +9767,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &5873983687539567374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6112692831689342967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6420357052268009317
 GameObject:
   m_ObjectHideFlags: 0
@@ -9167,6 +9797,7 @@ GameObject:
   - component: {fileID: 949964490679921563}
   - component: {fileID: 838102816433565196}
   - component: {fileID: 5892254392491500794}
+  - component: {fileID: 4442414314402709369}
   m_Layer: 0
   m_Name: Top_cell.010_cell.001_cell.002
   m_TagString: Untagged
@@ -9331,6 +9962,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &4442414314402709369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6420357052268009317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6582108914733033497
 GameObject:
   m_ObjectHideFlags: 0
@@ -9348,6 +9992,7 @@ GameObject:
   - component: {fileID: 4974356871939750672}
   - component: {fileID: 4436703003104976968}
   - component: {fileID: 5613673511498109212}
+  - component: {fileID: 7367324506645607641}
   m_Layer: 0
   m_Name: Top_cell.002_cell
   m_TagString: Untagged
@@ -9512,6 +10157,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7367324506645607641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6582108914733033497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6611179053352984365
 GameObject:
   m_ObjectHideFlags: 0
@@ -9529,6 +10187,7 @@ GameObject:
   - component: {fileID: 7892631129013735177}
   - component: {fileID: 7137188512228857658}
   - component: {fileID: 1798270669041217306}
+  - component: {fileID: 6007161883003105871}
   m_Layer: 0
   m_Name: Top_cell.005_cell.003_cell
   m_TagString: Untagged
@@ -9693,6 +10352,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &6007161883003105871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6611179053352984365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6638671083232377408
 GameObject:
   m_ObjectHideFlags: 0
@@ -9710,6 +10382,7 @@ GameObject:
   - component: {fileID: 3217129640165436937}
   - component: {fileID: 6478623789255106759}
   - component: {fileID: 7492478133924578354}
+  - component: {fileID: 9141485496247580551}
   m_Layer: 0
   m_Name: Top_cell_cell.002
   m_TagString: Untagged
@@ -9874,6 +10547,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &9141485496247580551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638671083232377408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6966588443059239535
 GameObject:
   m_ObjectHideFlags: 0
@@ -9891,6 +10577,7 @@ GameObject:
   - component: {fileID: 7094396002341316441}
   - component: {fileID: 7448002804527469514}
   - component: {fileID: 3137490212354665471}
+  - component: {fileID: 6846543107496709856}
   m_Layer: 0
   m_Name: Top_cell.010_cell.004_cell.002_cell.002
   m_TagString: Untagged
@@ -10055,6 +10742,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &6846543107496709856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966588443059239535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &6978793917116039228
 GameObject:
   m_ObjectHideFlags: 0
@@ -10072,6 +10772,7 @@ GameObject:
   - component: {fileID: 3489656368747856921}
   - component: {fileID: 2898553075635274066}
   - component: {fileID: 7663867595715962196}
+  - component: {fileID: 972015776893982351}
   m_Layer: 0
   m_Name: Top_cell.010_cell.001_cell.001_cell.001
   m_TagString: Untagged
@@ -10236,6 +10937,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &972015776893982351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978793917116039228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &7097294225431618058
 GameObject:
   m_ObjectHideFlags: 0
@@ -10253,6 +10967,7 @@ GameObject:
   - component: {fileID: 2355576415052076848}
   - component: {fileID: 5920320136782651912}
   - component: {fileID: 8063172790008019031}
+  - component: {fileID: 101651377634018448}
   m_Layer: 0
   m_Name: Top_cell.001_cell
   m_TagString: Untagged
@@ -10417,6 +11132,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &101651377634018448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7097294225431618058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &7228031780488066936
 GameObject:
   m_ObjectHideFlags: 0
@@ -10434,6 +11162,7 @@ GameObject:
   - component: {fileID: 7264750692651393423}
   - component: {fileID: 4699268934631403022}
   - component: {fileID: 1329207693801463184}
+  - component: {fileID: 9166839914786335564}
   m_Layer: 0
   m_Name: Top_cell.006_cell.003
   m_TagString: Untagged
@@ -10598,6 +11327,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &9166839914786335564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7228031780488066936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &7328454165817256385
 GameObject:
   m_ObjectHideFlags: 0
@@ -10712,6 +11454,7 @@ GameObject:
   - component: {fileID: 6982396241946587109}
   - component: {fileID: 5876466341360524041}
   - component: {fileID: 4636948438901930261}
+  - component: {fileID: 7390143281008620460}
   m_Layer: 0
   m_Name: Top_cell.006_cell.001
   m_TagString: Untagged
@@ -10876,6 +11619,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7390143281008620460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7395773243673434095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &7519995443675579835
 GameObject:
   m_ObjectHideFlags: 0
@@ -10893,6 +11649,7 @@ GameObject:
   - component: {fileID: 6519338075813563606}
   - component: {fileID: 6685345096113273763}
   - component: {fileID: 801673206176102235}
+  - component: {fileID: 2047249662352051320}
   m_Layer: 0
   m_Name: Top_cell.002_cell.004_cell_cell
   m_TagString: Untagged
@@ -11057,6 +11814,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &2047249662352051320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7519995443675579835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &7869678471432029593
 GameObject:
   m_ObjectHideFlags: 0
@@ -11164,6 +11934,7 @@ GameObject:
   - component: {fileID: 8456724047047448302}
   - component: {fileID: 3230020408868420207}
   - component: {fileID: 278018169115479124}
+  - component: {fileID: 717207769242325443}
   m_Layer: 0
   m_Name: Top_cell.005_cell.001
   m_TagString: Untagged
@@ -11328,6 +12099,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &717207769242325443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8086115728554169878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &8221693973802069233
 GameObject:
   m_ObjectHideFlags: 0
@@ -11345,6 +12129,7 @@ GameObject:
   - component: {fileID: 6668929293196042381}
   - component: {fileID: 6054406938939229413}
   - component: {fileID: 7188571135366528675}
+  - component: {fileID: 961877102648986540}
   m_Layer: 0
   m_Name: Top_cell.010_cell.002_cell
   m_TagString: Untagged
@@ -11509,6 +12294,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &961877102648986540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8221693973802069233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &8228923873398678576
 GameObject:
   m_ObjectHideFlags: 0
@@ -11526,6 +12324,7 @@ GameObject:
   - component: {fileID: 8976367352312946437}
   - component: {fileID: 4129027419428013766}
   - component: {fileID: 405816863193015275}
+  - component: {fileID: 9161906928862854978}
   m_Layer: 0
   m_Name: Top_cell.005_cell
   m_TagString: Untagged
@@ -11690,6 +12489,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &9161906928862854978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8228923873398678576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &8382589022268119760
 GameObject:
   m_ObjectHideFlags: 0
@@ -11707,6 +12519,7 @@ GameObject:
   - component: {fileID: 7726640244383629703}
   - component: {fileID: 4448033802320315689}
   - component: {fileID: 2594473590557734296}
+  - component: {fileID: 6833298042797907692}
   m_Layer: 0
   m_Name: Top_cell.010_cell.004_cell
   m_TagString: Untagged
@@ -11871,6 +12684,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &6833298042797907692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8382589022268119760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &8444249289365801220
 GameObject:
   m_ObjectHideFlags: 0
@@ -11985,6 +12811,7 @@ GameObject:
   - component: {fileID: 2556564998997484373}
   - component: {fileID: 6327537772463125614}
   - component: {fileID: 8136560438252005783}
+  - component: {fileID: 6113221920691769801}
   m_Layer: 0
   m_Name: Top_cell.010_cell.001_cell_cell
   m_TagString: Untagged
@@ -12149,6 +12976,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &6113221920691769801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8508475013579818824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &8530635291035357132
 GameObject:
   m_ObjectHideFlags: 0
@@ -12166,6 +13006,7 @@ GameObject:
   - component: {fileID: 162640221953875075}
   - component: {fileID: 7229930895971480504}
   - component: {fileID: 7683491049537581044}
+  - component: {fileID: 7434663138021394190}
   m_Layer: 0
   m_Name: Top_cell.010_cell.001_cell_cell.002
   m_TagString: Untagged
@@ -12330,6 +13171,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &7434663138021394190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8530635291035357132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &8974577936295687551
 GameObject:
   m_ObjectHideFlags: 0
@@ -12347,6 +13201,7 @@ GameObject:
   - component: {fileID: 6061663261963392469}
   - component: {fileID: 2073716467735944075}
   - component: {fileID: 5193688250880633312}
+  - component: {fileID: 6462439721702896567}
   m_Layer: 0
   m_Name: Top_cell.005_cell.002_cell
   m_TagString: Untagged
@@ -12511,6 +13366,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &6462439721702896567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8974577936295687551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}
 --- !u!1 &9128342897560768952
 GameObject:
   m_ObjectHideFlags: 0
@@ -12563,6 +13431,7 @@ GameObject:
   - component: {fileID: 5050533683378347786}
   - component: {fileID: 5085095281263486920}
   - component: {fileID: 4402812095731567773}
+  - component: {fileID: 6044188088161586812}
   m_Layer: 0
   m_Name: Top_cell.005_cell.002_cell.001_cell
   m_TagString: Untagged
@@ -12727,3 +13596,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08028930076aee1419b3af61259dcb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartBreakable
+--- !u!114 &6044188088161586812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9185600542979544258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: ff704f792145b5249a515e1312d624d1, type: 2}

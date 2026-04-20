@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 6473226240205004202}
   - component: {fileID: 3553181725343472712}
   - component: {fileID: 3854723922547506882}
+  - component: {fileID: 2244641571145455706}
   m_Layer: 0
   m_Name: Desk1
   m_TagString: Untagged
@@ -815,6 +816,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.Breakables.Assembly.PartLOD
   _nextLOD: {fileID: 5835211177665344659, guid: eba40b33cd75dfc4e86e9604170d19f9, type: 3}
+--- !u!114 &2244641571145455706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5835211177665344659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Score::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: 6eacf0c315da5524bad4d702db47b322, type: 2}
 --- !u!1 &7328454165817256385
 GameObject:
   m_ObjectHideFlags: 0
