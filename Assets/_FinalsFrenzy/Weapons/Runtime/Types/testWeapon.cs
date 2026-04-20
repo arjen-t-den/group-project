@@ -24,7 +24,7 @@ namespace Group8.FinalsFrenzy.Weapons
                 return;
             }
             if (!hit.collider.TryGetComponent(out IBreakable breakable)) return;
-            breakable.Break();
+            breakable.Break(origin, direction);
         }
     }
 }

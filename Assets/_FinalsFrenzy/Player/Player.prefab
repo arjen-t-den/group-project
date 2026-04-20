@@ -856,7 +856,6 @@ GameObject:
   - component: {fileID: 652468326171772810}
   - component: {fileID: 5528848695146083259}
   - component: {fileID: 6687462087893907035}
-  - component: {fileID: 3770640046208378894}
   - component: {fileID: 6563604564754720828}
   - component: {fileID: 9005206942033744148}
   - component: {fileID: 1468177086647164005}
@@ -1001,6 +1000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.FirstPersonCamera
   _lookReference: {fileID: -8274085195423866996, guid: 8cc74e02b89403b44a93caabb21dfa32, type: 3}
   _sensitivity: 0.1
+  sensitivitySlider: {fileID: 0}
 --- !u!114 &6687462087893907035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1013,20 +1013,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9c4ed6c6bf3784d8882eea4e85cc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Group8.FinalsFrenzy.Weapons::Group8.FinalsFrenzy.Weapons.WeaponController
+  Weapon: {fileID: 11400000, guid: 1040f9ce406ee3846a10c2e6c8835928, type: 2}
   _attack: {fileID: 1717030972677039990, guid: 8cc74e02b89403b44a93caabb21dfa32, type: 3}
-  _weapon: {fileID: 3770640046208378894}
---- !u!114 &3770640046208378894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7937482912110479210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a0a5b3fe596f3c479bf6bcbe3ab5609, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Group8.FinalsFrenzy.Weapons::Group8.FinalsFrenzy.Weapons.Hammer
 --- !u!114 &6563604564754720828
 MonoBehaviour:
   m_ObjectHideFlags: 0
