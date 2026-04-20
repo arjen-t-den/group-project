@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 2590606225646113280}
   - component: {fileID: 1669803595600898808}
   - component: {fileID: 6357154645496299010}
+  - component: {fileID: 8808028011992792722}
   m_Layer: 0
   m_Name: coffePot_lid
   m_TagString: Untagged
@@ -205,6 +206,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.22888486, y: 0.020729644, z: 0.21753246}
   m_Center: {x: -0.09314539, y: 0.00680562, z: 0.000011939555}
+--- !u!114 &8808028011992792722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6760429727354319450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &8911021635726491463
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +230,7 @@ GameObject:
   - component: {fileID: 3545218548323042605}
   - component: {fileID: 4029178533230536576}
   - component: {fileID: 8339829924593274473}
+  - component: {fileID: 5461894563790624611}
   m_Layer: 0
   m_Name: coffePot_body
   m_TagString: Untagged
@@ -317,3 +331,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.38038835, y: 0.23759054, z: 0.27866906}
   m_Center: {x: 0.050859973, y: 0.11879481, z: 0.000000014901161}
+--- !u!114 &5461894563790624611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8911021635726491463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable

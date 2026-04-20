@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 556590341887828401}
   - component: {fileID: 8880446063561351988}
   - component: {fileID: 1263633680441987447}
+  - component: {fileID: 4559162204512257932}
   m_Layer: 0
   m_Name: deskLight_joint1
   m_TagString: Untagged
@@ -206,6 +207,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.10129437, y: 0.24204852, z: 0.09184772}
   m_Center: {x: -0.031710304, y: 0.106091894, z: -0.00003835559}
+--- !u!114 &4559162204512257932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6111733816643579852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &7622021985079625652
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +231,7 @@ GameObject:
   - component: {fileID: 2832606991950876078}
   - component: {fileID: 3650949104723663344}
   - component: {fileID: 6524381050847945960}
+  - component: {fileID: 8431262218176971992}
   m_Layer: 0
   m_Name: deskLight_joint2
   m_TagString: Untagged
@@ -320,6 +334,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.118005954, y: 0.18018988, z: 0.09184772}
   m_Center: {x: 0.041878987, y: 0.073561326, z: -0.000038901344}
+--- !u!114 &8431262218176971992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7622021985079625652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &7773883804434322827
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +358,7 @@ GameObject:
   - component: {fileID: 781578924853671013}
   - component: {fileID: 3470619795241627156}
   - component: {fileID: 999792575059826862}
+  - component: {fileID: 4245445313858131157}
   m_Layer: 0
   m_Name: deskLight_base
   m_TagString: Untagged
@@ -433,6 +460,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.21391578, y: 0.08000001, z: 0.2139158}
   m_Center: {x: 0, y: 0.04, z: 0.000000063329935}
+--- !u!114 &4245445313858131157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7773883804434322827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &8597442810608407232
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,6 +484,7 @@ GameObject:
   - component: {fileID: 1474906144105397441}
   - component: {fileID: 4593749069961977660}
   - component: {fileID: 6406248311501918183}
+  - component: {fileID: 496443519379551479}
   m_Layer: 0
   m_Name: deskLight_joint3
   m_TagString: Untagged
@@ -546,3 +586,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2205931, y: 0.22072217, z: 0.13331467}
   m_Center: {x: 0.07735716, y: 0.05343665, z: -0.0022422783}
+--- !u!114 &496443519379551479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8597442810608407232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable

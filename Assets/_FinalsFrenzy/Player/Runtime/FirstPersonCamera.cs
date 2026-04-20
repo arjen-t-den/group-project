@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 namespace Group8.FinalsFrenzy.Player
 {
@@ -10,6 +11,7 @@ namespace Group8.FinalsFrenzy.Player
 
         [SerializeField]
         private float _sensitivity = 10f;
+        public Slider sensitivitySlider;
 
         private Vector2 _cameraRotation;
 
@@ -26,6 +28,12 @@ namespace Group8.FinalsFrenzy.Player
         private void OnEnable() => Cursor.lockState = CursorLockMode.Locked;
 
         private void OnDisable() => Cursor.lockState = CursorLockMode.None;
+
+        public void AdjustSensitivity()
+        {
+            _sensitivity = (float)sensitivitySlider.value / 500.0f;
+            //_sensitivity = 0.1f;
+        }
 
         private void Update()
         {

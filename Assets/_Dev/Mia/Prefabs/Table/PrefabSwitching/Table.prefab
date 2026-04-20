@@ -1,0 +1,324 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6623468166787405581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555668840717115982, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4877703511158318946, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      propertyPath: m_Name
+      value: Table
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2196171361761001062, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5677777028607683394}
+    - targetCorrespondingSourceObject: {fileID: 2196171361761001062, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5893127159015042581}
+    - targetCorrespondingSourceObject: {fileID: 2196171361761001062, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4674237657124933670}
+    - targetCorrespondingSourceObject: {fileID: 5185730863945602844, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2823285312602151456}
+    - targetCorrespondingSourceObject: {fileID: 5185730863945602844, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 173035611281901369}
+    - targetCorrespondingSourceObject: {fileID: 5185730863945602844, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7042725980301205654}
+    - targetCorrespondingSourceObject: {fileID: 6629732674587226077, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2288643502412472098}
+    - targetCorrespondingSourceObject: {fileID: 6629732674587226077, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3031442437175191364}
+    - targetCorrespondingSourceObject: {fileID: 6629732674587226077, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8564576222152761142}
+    - targetCorrespondingSourceObject: {fileID: 8190690163605121073, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1706479843331068207}
+    - targetCorrespondingSourceObject: {fileID: 8190690163605121073, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8032684342752217984}
+    - targetCorrespondingSourceObject: {fileID: 8190690163605121073, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7699061984430378440}
+    - targetCorrespondingSourceObject: {fileID: 7564608144884177024, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5080005620667641296}
+    - targetCorrespondingSourceObject: {fileID: 7564608144884177024, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7990851900383812328}
+    - targetCorrespondingSourceObject: {fileID: 7564608144884177024, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8123389970529673389}
+  m_SourcePrefab: {fileID: 100100000, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+--- !u!1 &570483298659924176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6629732674587226077, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+  m_PrefabInstance: {fileID: 6623468166787405581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2288643502412472098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570483298659924176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.PrefabSwitchingBreakable
+  _brokenPrefab: {fileID: 0}
+--- !u!114 &3031442437175191364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570483298659924176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &8564576222152761142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570483298659924176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: 41d79ea69eca6f94f86dedfa466c0fd6, type: 2}
+--- !u!1 &2025533010710446097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5185730863945602844, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+  m_PrefabInstance: {fileID: 6623468166787405581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2823285312602151456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025533010710446097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.PrefabSwitchingBreakable
+  _brokenPrefab: {fileID: 0}
+--- !u!114 &173035611281901369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025533010710446097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &7042725980301205654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025533010710446097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: 41d79ea69eca6f94f86dedfa466c0fd6, type: 2}
+--- !u!1 &3044543826413797180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8190690163605121073, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+  m_PrefabInstance: {fileID: 6623468166787405581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1706479843331068207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3044543826413797180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.PrefabSwitchingBreakable
+  _brokenPrefab: {fileID: 0}
+--- !u!114 &8032684342752217984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3044543826413797180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &7699061984430378440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3044543826413797180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: 41d79ea69eca6f94f86dedfa466c0fd6, type: 2}
+--- !u!1 &3679909507139473293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7564608144884177024, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+  m_PrefabInstance: {fileID: 6623468166787405581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5080005620667641296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679909507139473293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.PrefabSwitchingBreakable
+  _brokenPrefab: {fileID: 0}
+--- !u!114 &7990851900383812328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679909507139473293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &8123389970529673389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679909507139473293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: 41d79ea69eca6f94f86dedfa466c0fd6, type: 2}
+--- !u!1 &5012813165212133739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2196171361761001062, guid: d3d67f031a8e15e4ea5e3d1068c40238, type: 3}
+  m_PrefabInstance: {fileID: 6623468166787405581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5677777028607683394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012813165212133739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2508dc2e73aa2c4d84cefb65756267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.PrefabSwitchingBreakable
+  _brokenPrefab: {fileID: 7449435064211400343, guid: d23870a5652b46d4b9f7b166189864b8, type: 3}
+--- !u!114 &5893127159015042581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012813165212133739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0a88ad27c215e4db62eabf177efab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Destruction::Group8.FinalsFrenzy.Destruction.BreakSoundPlayer
+  _audioResource: {fileID: 6418180475301049370, guid: 6c0006bece447434ea16ec0382a8425a, type: 2}
+--- !u!114 &4674237657124933670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012813165212133739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e11b1286f081a14aacf42a71fb130ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Group8.FinalsFrenzy.Score.ScoreFromBreak
+  scoreData: {fileID: 11400000, guid: 6eacf0c315da5524bad4d702db47b322, type: 2}

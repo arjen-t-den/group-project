@@ -1,11 +1,11 @@
 ﻿<Solution>
+  <Project Path="Group8.FinalsFrenzy.Player.csproj" />
   <Project Path="Group8.FinalsFrenzy.Destruction.csproj" />
   <Project Path="Group8.FinalsFrenzy.Weapons.csproj" />
   <Project Path="Group8.FinalsFrenzy.Utilities.csproj" />
   <Project Path="Group8.FinalsFrenzy.Input.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Group8.FinalsFrenzy.Audio.csproj" />
-  <Project Path="Group8.FinalsFrenzy.Player.csproj" />
   <Project Path="Group8.FinalsFrenzy.Input.Editor.csproj" />
   <Project Path="Group8.FinalsFrenzy.Utilities.Editor.csproj" />
 </Solution>

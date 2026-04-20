@@ -1,5 +1,3 @@
-using UnityEngine;
-
 namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
 {
     /// <summary>
@@ -36,10 +34,8 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
         /// </summary>
         public void Break()
         {
-            Debug.Log("Breaking weld between " + Part0.name + " and " + Part1.name);
-
-            Part0.Welds.Remove(this);
-            Part1.Welds.Remove(this);
+            if (Part0) Part0.Welds.Remove(this);
+            if (Part1) Part1.Welds.Remove(this);
 
             Part0 = null;
             Part1 = null;

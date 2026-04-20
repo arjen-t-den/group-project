@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7618477561524223936}
   - component: {fileID: 528911455773489489}
   - component: {fileID: 3828060575980847862}
+  - component: {fileID: 7530292951022160216}
   m_Layer: 0
   m_Name: waterDispenser
   m_TagString: Untagged
@@ -116,6 +117,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40259323, y: 1.5780748, z: 0.44976437}
   m_Center: {x: -0.00000025331974, y: 0.78836936, z: 0.013205312}
+--- !u!114 &7530292951022160216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645528516090194743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d87794f9319d9249ba9231de42c1a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Group8.FinalsFrenzy.Player::Group8.FinalsFrenzy.Player.Grabbable
 --- !u!1 &3281542857924279648
 GameObject:
   m_ObjectHideFlags: 0
