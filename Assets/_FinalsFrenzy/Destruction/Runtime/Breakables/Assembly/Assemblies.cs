@@ -83,6 +83,7 @@ namespace Group8.FinalsFrenzy.Destruction.Breakables.Assembly
             // Do not rebuild if assembly is intact.
             if (groups.Count == 0)
             {
+                assembly.RecalculateMass();
                 _rebuildingAssemblies.Remove(assembly);
                 return;
             }
