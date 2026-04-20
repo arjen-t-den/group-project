@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // We need this to talk to your text numbers!
+using TMPro; 
 
 public class SettingsManager : MonoBehaviour
 {
@@ -22,17 +22,16 @@ public class SettingsManager : MonoBehaviour
     public TMP_Dropdown colourblindDropdown; 
 
     [Header("Save Keys")]
-    private string volumeKey = "Setting_Volume";
-    private string brightnessKey = "Setting_Brightness";
-    private string bloomKey = "Setting_Bloom";
-    private string vSensKey = "Setting_VSens";
-    private string hSensKey = "Setting_HSens";
-    private string colourblindKey = "Setting_Colourblind";
+    private readonly string volumeKey = "Setting_Volume";
+    private readonly string brightnessKey = "Setting_Brightness";
+    private readonly string bloomKey = "Setting_Bloom";
+    private readonly string vSensKey = "Setting_VSens";
+    private readonly string hSensKey = "Setting_HSens";
+    private readonly string colourblindKey = "Setting_Colourblind";
 
     void Start()
     {
-        // --- 1. LOAD DATA & SET SLIDERS ---
-        // Notice we are now defaulting to 50f instead of 1f
+        // Initialize UI elements with saved preferences (defaulting to 50f / 0)
         if (volumeSlider != null) volumeSlider.value = PlayerPrefs.GetFloat(volumeKey, 50f);
         if (brightnessSlider != null) brightnessSlider.value = PlayerPrefs.GetFloat(brightnessKey, 50f);
         if (bloomSlider != null) bloomSlider.value = PlayerPrefs.GetFloat(bloomKey, 50f);
@@ -41,14 +40,14 @@ public class SettingsManager : MonoBehaviour
 
         if (colourblindDropdown != null) colourblindDropdown.value = PlayerPrefs.GetInt(colourblindKey, 0);
 
-        // --- 2. UPDATE TEXT NUMBERS ON START ---
+        // Synchronize text readouts with initial slider values
         UpdateText(volumeText, volumeSlider.value);
         UpdateText(brightnessText, brightnessSlider.value);
         UpdateText(bloomText, bloomSlider.value);
         UpdateText(vSensText, verticalSensitivitySlider.value);
         UpdateText(hSensText, horizontalSensitivitySlider.value);
 
-        // --- 3. LISTEN FOR CHANGES ---
+        // Register event listeners for UI state changes
         if (volumeSlider != null) volumeSlider.onValueChanged.AddListener(SaveVolume);
         if (brightnessSlider != null) brightnessSlider.onValueChanged.AddListener(SaveBrightness);
         if (bloomSlider != null) bloomSlider.onValueChanged.AddListener(SaveBloom);
@@ -57,23 +56,20 @@ public class SettingsManager : MonoBehaviour
         if (colourblindDropdown != null) colourblindDropdown.onValueChanged.AddListener(SaveColourblindMode);
     }
 
-    // A handy function to update the text labels easily
     private void UpdateText(TextMeshProUGUI textElement, float value)
     {
         if (textElement != null)
         {
-            // "0" formats the number as a whole number (no crazy decimals like 50.342)
+            // Format float to zero decimal places for UI readability
             textElement.text = value.ToString("0"); 
         }
     }
-
-    // --- 4. SAVE FUNCTIONS ---
 
     private void SaveVolume(float value)
     {
         PlayerPrefs.SetFloat(volumeKey, value);
         PlayerPrefs.Save();
-        UpdateText(volumeText, value); // Updates the number instantly when moving
+        UpdateText(volumeText, value); 
     }
 
     private void SaveBrightness(float value)

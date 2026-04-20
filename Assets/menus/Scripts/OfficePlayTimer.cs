@@ -3,17 +3,15 @@ using UnityEngine;
 public class OfficePlayTimer : MonoBehaviour
 {
     [Header("Timer Settings")]
-    public float requiredPlayTime = 60f; // 60 seconds = 1 minute
+    public float requiredPlayTime = 60f; 
     private float currentPlayTime = 0f;
     
     private bool hasUnlocked = false;
-    
-    // This MUST match the exact spelling in your MapManager!
-    private string OfficeCompletedKey = "OfficeCompleted"; 
+    private readonly string OfficeCompletedKey = "OfficeCompleted"; 
 
     void Start()
     {
-        // Check if the player already unlocked the map in a previous session
+        // Verify persistent unlock state on instantiation
         if (PlayerPrefs.GetInt(OfficeCompletedKey, 0) == 1)
         {
             hasUnlocked = true; 
@@ -22,10 +20,10 @@ public class OfficePlayTimer : MonoBehaviour
 
     void Update()
     {
-        // If the map is already unlocked, we stop counting to save processing power
+        // Terminate timer execution early if condition is already met
         if (hasUnlocked) return;
 
-        // Time.deltaTime automatically stops counting when your pause menu sets Time.timeScale to 0!
+        // Accumulate active play time (pauses automatically if Time.timeScale == 0)
         currentPlayTime += Time.deltaTime;
 
         if (currentPlayTime >= requiredPlayTime)
@@ -39,7 +37,5 @@ public class OfficePlayTimer : MonoBehaviour
         hasUnlocked = true;
         PlayerPrefs.SetInt(OfficeCompletedKey, 1);
         PlayerPrefs.Save();
-        
-        Debug.Log("1 minute reached! The Factory Level is now unlocked.");
     }
 }
