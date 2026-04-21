@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 
 // this is a test script to test out the particle system and camera shake, not meant to be used in the final game
-namespace Group8.FinalsFrenzy
+namespace Group8.FinalsFrenzy.Destruction.Breakables
 {
     public class TestParticles : MonoBehaviour
     {
@@ -13,8 +13,6 @@ namespace Group8.FinalsFrenzy
         private GameObject player;
         private FirstPersonMovement _movement;
         private AudioManager audioManager;
-        private ParticlesManager particlesManager;
-
         public GameObject Camera; 
         public GameObject firePrefab;
         public CameraShake cameraShake;
@@ -28,7 +26,6 @@ namespace Group8.FinalsFrenzy
             explosion = GameObject.Find("ParticleEffects/ExplosionParticles").GetComponent<ParticleSystem>();
             player = GameObject.Find("FootBall");
             audioManager = FindFirstObjectByType<AudioManager>();
-            particlesManager = FindFirstObjectByType<ParticlesManager>();
 
             if (player == null)
             {
@@ -53,7 +50,6 @@ namespace Group8.FinalsFrenzy
             // spawns explosion and triggers camera shake when left mouse button is pressed, explosion spawns in front of the camera with height adjustment
             if (Mouse.current.leftButton.wasPressedThisFrame)
             {
-                particlesManager.PlayEffect("ExplosionParticles", player.transform.position, 3f);
                 audioManager.Play("ExplosionImpact");
                 cameraShake.TriggerShake(duration,magnitude);
             }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.ParticleSystemJobs;
 
-namespace Group8.FinalsFrenzy
+namespace Group8.FinalsFrenzy.Destruction.Breakables
 {
     // A particle manager that allows you to instantiate particle systems by name and automatically destroy them after a set duration
     // @Parameter: effectname - the name of the particle system to play, position - where to spawn the particle system, duration - how long the particle system should last before being destroyed
@@ -13,8 +13,9 @@ namespace Group8.FinalsFrenzy
     {
         public static ParticlesManager instance { get; private set; }
 
-        [SerializeField] private ParticleSystem[] effects;
-
+        [SerializeField] 
+        private ParticleSystem[] effects;
+        
         private Dictionary<string, ParticleSystem> effectsDictionary;
 
         private void Awake()
@@ -41,7 +42,7 @@ namespace Group8.FinalsFrenzy
                 }
             }
         }
-
+        Quaternion rotation = Quaternion.Euler(-90f, 0f, 0f);
         public void PlayEffect(string effectName, Vector3 position, float duration)
         {
             if (!effectsDictionary.TryGetValue(effectName, out  ParticleSystem system))
@@ -50,7 +51,7 @@ namespace Group8.FinalsFrenzy
                 return;
             }
 
-            ParticleSystem instance = Instantiate(system, position, Quaternion.identity);
+            ParticleSystem instance = Instantiate(system, position, rotation);
             instance.Play();
             StartCoroutine(DestroyAfterDuration(instance.gameObject, duration));
         }

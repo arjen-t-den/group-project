@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Group8.FinalsFrenzy
+namespace Group8.FinalsFrenzy.Destruction.Breakables
 {
     public class CameraShake : MonoBehaviour
     {
