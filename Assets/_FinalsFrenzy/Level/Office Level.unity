@@ -10052,6 +10052,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream:Assets/_FinalsFrenzy/Level/Office Level.unity
     - target: {fileID: 150721950676877487, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
       propertyPath: field of view
       value: 60.000004
@@ -10071,6 +10072,35 @@ PrefabInstance:
     - target: {fileID: 652468326171772810, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
       propertyPath: m_Enabled
       value: 1
+=======
+    - target: {fileID: 2523889353480651354, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523889353480651354, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523889353480651354, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523889353480651354, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523889353480651354, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674618739179488246, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674618739179488246, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: ForceModule.z.scalar
+      value: 0
+>>>>>>> Stashed changes:Assets/_FinalsFrenzy/Level/Office Old.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4484651237241776672, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
       propertyPath: m_Name
@@ -10136,8 +10166,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_FinalsFrenzy/Level/Office Level.unity
     - target: {fileID: 7937482912110479210, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
       propertyPath: m_Layer
+=======
+    - target: {fileID: 7695898756264100184, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695898756264100184, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695898756264100184, guid: 3b2542963707ad449bbafd3bb62a3b21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+>>>>>>> Stashed changes:Assets/_FinalsFrenzy/Level/Office Old.unity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
